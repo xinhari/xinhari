@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/micro/go-micro/v2/network/resolver"
+	"github.com/ebelanja/go-micro/network/resolver"
 )
 
 // Resolver is a DNS network resolve

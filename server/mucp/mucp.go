@@ -2,7 +2,7 @@
 package mucp
 
 import (
-	"github.com/micro/go-micro/v2/server"
+	"github.com/ebelanja/go-micro/server"
 )
 
 // NewServer returns a micro server interface

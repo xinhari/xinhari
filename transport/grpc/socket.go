@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"github.com/micro/go-micro/v2/transport"
-	pb "github.com/micro/go-micro/v2/transport/grpc/proto"
+	"github.com/ebelanja/go-micro/transport"
+	pb "github.com/ebelanja/go-micro/transport/grpc/proto"
 	"google.golang.org/grpc"
 )
 

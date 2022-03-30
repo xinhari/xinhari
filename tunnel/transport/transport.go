@@ -4,8 +4,8 @@ package transport
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/transport"
-	"github.com/micro/go-micro/v2/tunnel"
+	"github.com/ebelanja/go-micro/transport"
+	"github.com/ebelanja/go-micro/tunnel"
 )
 
 type tunTransport struct {

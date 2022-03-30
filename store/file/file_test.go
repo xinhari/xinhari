@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
+	"github.com/ebelanja/go-micro/store"
 	"github.com/kr/pretty"
-	"github.com/micro/go-micro/v2/store"
 )
 
 func cleanup(db string, s store.Store) {

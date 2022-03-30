@@ -1,6 +1,6 @@
 # Log
 
-DEPRECATED: use github.com/micro/go-micro/v2/logger interface
+DEPRECATED: use github.com/ebelanja/go-micro/logger interface
 
 This is the global logger for all micro based libraries.
 

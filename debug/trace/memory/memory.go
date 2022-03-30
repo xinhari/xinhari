@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
+	"github.com/ebelanja/go-micro/debug/trace"
+	"github.com/ebelanja/go-micro/util/ring"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/debug/trace"
-	"github.com/micro/go-micro/v2/util/ring"
 )
 
 type Tracer struct {

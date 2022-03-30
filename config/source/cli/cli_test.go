@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
+	"github.com/ebelanja/go-micro"
+	"github.com/ebelanja/go-micro/config"
+	"github.com/ebelanja/go-micro/config/cmd"
+	"github.com/ebelanja/go-micro/config/source"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/config"
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/config/source"
 )
 
 func TestCliSourceDefault(t *testing.T) {

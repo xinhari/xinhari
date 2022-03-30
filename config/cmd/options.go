@@ -3,18 +3,18 @@ package cmd
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	"github.com/micro/go-micro/v2/config"
-	"github.com/micro/go-micro/v2/debug/profile"
-	"github.com/micro/go-micro/v2/debug/trace"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/runtime"
-	"github.com/micro/go-micro/v2/server"
-	"github.com/micro/go-micro/v2/store"
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/ebelanja/go-micro/auth"
+	"github.com/ebelanja/go-micro/broker"
+	"github.com/ebelanja/go-micro/client"
+	"github.com/ebelanja/go-micro/client/selector"
+	"github.com/ebelanja/go-micro/config"
+	"github.com/ebelanja/go-micro/debug/profile"
+	"github.com/ebelanja/go-micro/debug/trace"
+	"github.com/ebelanja/go-micro/registry"
+	"github.com/ebelanja/go-micro/runtime"
+	"github.com/ebelanja/go-micro/server"
+	"github.com/ebelanja/go-micro/store"
+	"github.com/ebelanja/go-micro/transport"
 )
 
 type Options struct {

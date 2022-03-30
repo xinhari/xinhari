@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/client/selector"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/ebelanja/go-micro/broker"
+	"github.com/ebelanja/go-micro/client/selector"
+	"github.com/ebelanja/go-micro/codec"
+	"github.com/ebelanja/go-micro/registry"
+	"github.com/ebelanja/go-micro/transport"
 )
 
 type Options struct {

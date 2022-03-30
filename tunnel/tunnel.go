@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/ebelanja/go-micro/transport"
 )
 
 const (

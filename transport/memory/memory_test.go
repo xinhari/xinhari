@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/ebelanja/go-micro/transport"
 )
 
 func TestMemoryTransport(t *testing.T) {

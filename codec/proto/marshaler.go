@@ -3,8 +3,8 @@ package proto
 import (
 	"bytes"
 
+	"github.com/ebelanja/go-micro/codec"
 	"github.com/golang/protobuf/proto"
-	"github.com/micro/go-micro/v2/codec"
 	"github.com/oxtoacart/bpool"
 )
 

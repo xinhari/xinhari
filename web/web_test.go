@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/ebelanja/go-micro"
+	"github.com/ebelanja/go-micro/logger"
+	"github.com/ebelanja/go-micro/web"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/web"
 )
 
 func TestWeb(t *testing.T) {

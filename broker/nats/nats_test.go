@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/micro/go-micro/v2/broker"
+	"github.com/ebelanja/go-micro/broker"
 	nats "github.com/nats-io/nats.go"
 )
 

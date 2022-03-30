@@ -12,17 +12,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/codec"
-	raw "github.com/micro/go-micro/v2/codec/bytes"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/transport"
-	"github.com/micro/go-micro/v2/util/addr"
-	"github.com/micro/go-micro/v2/util/backoff"
-	mnet "github.com/micro/go-micro/v2/util/net"
-	"github.com/micro/go-micro/v2/util/socket"
+	"github.com/ebelanja/go-micro/broker"
+	"github.com/ebelanja/go-micro/codec"
+	raw "github.com/ebelanja/go-micro/codec/bytes"
+	"github.com/ebelanja/go-micro/logger"
+	"github.com/ebelanja/go-micro/metadata"
+	"github.com/ebelanja/go-micro/registry"
+	"github.com/ebelanja/go-micro/transport"
+	"github.com/ebelanja/go-micro/util/addr"
+	"github.com/ebelanja/go-micro/util/backoff"
+	mnet "github.com/ebelanja/go-micro/util/net"
+	"github.com/ebelanja/go-micro/util/socket"
 )
 
 type rpcServer struct {

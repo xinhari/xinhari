@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/ebelanja/go-micro/transport"
 )
 
 func call(b *testing.B, c int) {

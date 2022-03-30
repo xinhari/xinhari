@@ -6,10 +6,10 @@ import (
 
 	b "bytes"
 
+	"github.com/ebelanja/go-micro/codec"
+	"github.com/ebelanja/go-micro/codec/bytes"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/codec/bytes"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
 	"google.golang.org/grpc/metadata"

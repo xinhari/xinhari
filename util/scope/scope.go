@@ -3,7 +3,7 @@ package scope
 import (
 	"fmt"
 
-	"github.com/micro/go-micro/v2/store"
+	"github.com/ebelanja/go-micro/store"
 )
 
 // Scope extends the store, applying a prefix to each request

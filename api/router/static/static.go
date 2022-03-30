@@ -8,13 +8,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/micro/go-micro/v2/api"
-	"github.com/micro/go-micro/v2/api/router"
-	"github.com/micro/go-micro/v2/api/router/util"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/registry"
-	rutil "github.com/micro/go-micro/v2/util/registry"
+	"github.com/ebelanja/go-micro/api"
+	"github.com/ebelanja/go-micro/api/router"
+	"github.com/ebelanja/go-micro/api/router/util"
+	"github.com/ebelanja/go-micro/logger"
+	"github.com/ebelanja/go-micro/metadata"
+	"github.com/ebelanja/go-micro/registry"
+	rutil "github.com/ebelanja/go-micro/util/registry"
 )
 
 type endpoint struct {

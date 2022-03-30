@@ -1,9 +1,9 @@
 package config
 
 import (
-	"github.com/micro/go-micro/v2/config/loader"
-	"github.com/micro/go-micro/v2/config/reader"
-	"github.com/micro/go-micro/v2/config/source"
+	"github.com/ebelanja/go-micro/config/loader"
+	"github.com/ebelanja/go-micro/config/reader"
+	"github.com/ebelanja/go-micro/config/source"
 )
 
 // WithLoader sets the loader for manager config

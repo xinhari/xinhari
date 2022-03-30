@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ebelanja/go-micro/transport"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/transport"
 )
 
 type pool struct {

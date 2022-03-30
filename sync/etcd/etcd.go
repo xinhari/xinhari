@@ -11,7 +11,7 @@ import (
 
 	client "github.com/coreos/etcd/clientv3"
 	cc "github.com/coreos/etcd/clientv3/concurrency"
-	"github.com/micro/go-micro/v2/sync"
+	"github.com/ebelanja/go-micro/sync"
 )
 
 type etcdSync struct {

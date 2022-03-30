@@ -3,9 +3,9 @@ package grpc
 import (
 	"crypto/tls"
 
-	gc "github.com/micro/go-micro/v2/client/grpc"
-	gs "github.com/micro/go-micro/v2/server/grpc"
-	"github.com/micro/go-micro/v2/service"
+	gc "github.com/ebelanja/go-micro/client/grpc"
+	gs "github.com/ebelanja/go-micro/server/grpc"
+	"github.com/ebelanja/go-micro/service"
 )
 
 // WithTLS sets the TLS config for the service

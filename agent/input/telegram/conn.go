@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/ebelanja/go-micro/agent/input"
+	"github.com/ebelanja/go-micro/logger"
 	"github.com/forestgiant/sliceutil"
-	"github.com/micro/go-micro/v2/agent/input"
-	"github.com/micro/go-micro/v2/logger"
 	tgbotapi "gopkg.in/telegram-bot-api.v4"
 )
 

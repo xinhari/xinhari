@@ -3,9 +3,9 @@ package basic
 import (
 	"testing"
 
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/auth/token"
-	"github.com/micro/go-micro/v2/store/memory"
+	"github.com/ebelanja/go-micro/auth"
+	"github.com/ebelanja/go-micro/auth/token"
+	"github.com/ebelanja/go-micro/store/memory"
 )
 
 func TestGenerate(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/micro/go-micro/v2/codec"
+	"github.com/ebelanja/go-micro/codec"
 )
 
 type jsonCodec struct {

@@ -5,13 +5,13 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/debug/stats"
-	"github.com/micro/go-micro/v2/debug/trace"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/ebelanja/go-micro/auth"
+	"github.com/ebelanja/go-micro/client"
+	"github.com/ebelanja/go-micro/debug/stats"
+	"github.com/ebelanja/go-micro/debug/trace"
+	"github.com/ebelanja/go-micro/errors"
+	"github.com/ebelanja/go-micro/metadata"
+	"github.com/ebelanja/go-micro/server"
 )
 
 type fromServiceWrapper struct {

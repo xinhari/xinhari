@@ -5,7 +5,7 @@ import (
 	gosync "sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/sync"
+	"github.com/ebelanja/go-micro/sync"
 )
 
 type memorySync struct {

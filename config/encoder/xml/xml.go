@@ -3,7 +3,7 @@ package xml
 import (
 	"encoding/xml"
 
-	"github.com/micro/go-micro/v2/config/encoder"
+	"github.com/ebelanja/go-micro/config/encoder"
 )
 
 type xmlEncoder struct{}

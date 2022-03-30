@@ -12,17 +12,17 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ebelanja/go-micro"
+	"github.com/ebelanja/go-micro/logger"
+	"github.com/ebelanja/go-micro/registry"
+	maddr "github.com/ebelanja/go-micro/util/addr"
+	authutil "github.com/ebelanja/go-micro/util/auth"
+	"github.com/ebelanja/go-micro/util/backoff"
+	mhttp "github.com/ebelanja/go-micro/util/http"
+	mnet "github.com/ebelanja/go-micro/util/net"
+	signalutil "github.com/ebelanja/go-micro/util/signal"
+	mls "github.com/ebelanja/go-micro/util/tls"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
-	maddr "github.com/micro/go-micro/v2/util/addr"
-	authutil "github.com/micro/go-micro/v2/util/auth"
-	"github.com/micro/go-micro/v2/util/backoff"
-	mhttp "github.com/micro/go-micro/v2/util/http"
-	mnet "github.com/micro/go-micro/v2/util/net"
-	signalutil "github.com/micro/go-micro/v2/util/signal"
-	mls "github.com/micro/go-micro/v2/util/tls"
 )
 
 type service struct {

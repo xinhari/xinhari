@@ -6,10 +6,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/micro/go-micro/v2/client"
-	proto "github.com/micro/go-micro/v2/debug/service/proto"
-	"github.com/micro/go-micro/v2/registry/memory"
-	"github.com/micro/go-micro/v2/util/test"
+	"github.com/ebelanja/go-micro/client"
+	proto "github.com/ebelanja/go-micro/debug/service/proto"
+	"github.com/ebelanja/go-micro/registry/memory"
+	"github.com/ebelanja/go-micro/util/test"
 )
 
 func testShutdown(wg *sync.WaitGroup, cancel func()) {

@@ -8,11 +8,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/store"
-	pb "github.com/micro/go-micro/v2/store/service/proto"
+	"github.com/ebelanja/go-micro/client"
+	"github.com/ebelanja/go-micro/errors"
+	"github.com/ebelanja/go-micro/metadata"
+	"github.com/ebelanja/go-micro/store"
+	pb "github.com/ebelanja/go-micro/store/service/proto"
 )
 
 type serviceStore struct {

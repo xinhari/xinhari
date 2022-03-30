@@ -1,4 +1,4 @@
-// Package kubernetes is a logger implementing (github.com/micro/go-micro/v2/debug/log).Log
+// Package kubernetes is a logger implementing (github.com/ebelanja/go-micro/debug/log).Log
 package kubernetes
 
 import (
@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/micro/go-micro/v2/debug/log"
-	"github.com/micro/go-micro/v2/util/kubernetes/client"
+	"github.com/ebelanja/go-micro/debug/log"
+	"github.com/ebelanja/go-micro/util/kubernetes/client"
 )
 
 type klog struct {

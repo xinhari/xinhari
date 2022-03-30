@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/ebelanja/go-micro"
+	"github.com/ebelanja/go-micro/registry"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/registry"
 )
 
 //Options for web

@@ -4,13 +4,13 @@ package api
 import (
 	"net/http"
 
-	goapi "github.com/micro/go-micro/v2/api"
-	"github.com/micro/go-micro/v2/api/handler"
-	api "github.com/micro/go-micro/v2/api/proto"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/util/ctx"
+	goapi "github.com/ebelanja/go-micro/api"
+	"github.com/ebelanja/go-micro/api/handler"
+	api "github.com/ebelanja/go-micro/api/proto"
+	"github.com/ebelanja/go-micro/client"
+	"github.com/ebelanja/go-micro/client/selector"
+	"github.com/ebelanja/go-micro/errors"
+	"github.com/ebelanja/go-micro/util/ctx"
 )
 
 type apiHandler struct {

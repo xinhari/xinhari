@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/util/ring"
+	"github.com/ebelanja/go-micro/util/ring"
 )
 
 type stats struct {

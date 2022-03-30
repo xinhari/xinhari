@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ebelanja/go-micro/store"
 	"github.com/ef-ds/deque"
-	"github.com/micro/go-micro/v2/store"
 	"github.com/pkg/errors"
 )
 

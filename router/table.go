@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ebelanja/go-micro/logger"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/logger"
 )
 
 var (
