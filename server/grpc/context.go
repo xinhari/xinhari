@@ -3,7 +3,7 @@ package grpc
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/server"
 )
 
 func setServerOption(k, v interface{}) server.Option {

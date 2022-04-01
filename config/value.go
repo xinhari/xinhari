@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/ebelanja/go-micro/config/reader"
+	"xinhari.com/config/reader"
 )
 
 type value struct{}

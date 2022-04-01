@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/config/reader"
-	"github.com/ebelanja/go-micro/config/source"
+	"xinhari.com/config/reader"
+	"xinhari.com/config/source"
 )
 
 // Loader manages loading sources

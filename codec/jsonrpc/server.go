@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ebelanja/go-micro/codec"
+	"xinhari.com/codec"
 )
 
 type serverCodec struct {

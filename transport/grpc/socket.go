@@ -1,9 +1,9 @@
 package grpc
 
 import (
-	"github.com/ebelanja/go-micro/transport"
-	pb "github.com/ebelanja/go-micro/transport/grpc/proto"
 	"google.golang.org/grpc"
+	"xinhari.com/transport"
+	pb "xinhari.com/transport/grpc/proto"
 )
 
 type grpcTransportClient struct {

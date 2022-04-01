@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ebelanja/go-micro/config/cmd"
-	"github.com/ebelanja/go-micro/config/source"
 	"github.com/imdario/mergo"
 	"github.com/micro/cli/v2"
+	"xinhari.com/config/cmd"
+	"xinhari.com/config/source"
 )
 
 type cliSource struct {

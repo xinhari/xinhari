@@ -1,13 +1,13 @@
 package network
 
 import (
-	"github.com/ebelanja/go-micro/network/resolver"
-	"github.com/ebelanja/go-micro/network/resolver/registry"
-	"github.com/ebelanja/go-micro/proxy"
-	"github.com/ebelanja/go-micro/proxy/mucp"
-	"github.com/ebelanja/go-micro/router"
-	"github.com/ebelanja/go-micro/tunnel"
 	"github.com/google/uuid"
+	"xinhari.com/network/resolver"
+	"xinhari.com/network/resolver/registry"
+	"xinhari.com/proxy"
+	"xinhari.com/proxy/mucp"
+	"xinhari.com/router"
+	"xinhari.com/tunnel"
 )
 
 type Option func(*Options)

@@ -2,11 +2,11 @@
 package mucp
 
 import (
-	"github.com/ebelanja/go-micro/client"
-	cmucp "github.com/ebelanja/go-micro/client/mucp"
-	"github.com/ebelanja/go-micro/server"
-	smucp "github.com/ebelanja/go-micro/server/mucp"
-	"github.com/ebelanja/go-micro/service"
+	"xinhari.com/client"
+	cmucp "xinhari.com/client/mucp"
+	"xinhari.com/server"
+	smucp "xinhari.com/server/mucp"
+	"xinhari.com/service"
 )
 
 type mucpService struct {

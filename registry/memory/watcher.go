@@ -3,7 +3,7 @@ package memory
 import (
 	"errors"
 
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 type Watcher struct {

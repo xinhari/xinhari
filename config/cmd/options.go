@@ -3,18 +3,18 @@ package cmd
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/auth"
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/client/selector"
-	"github.com/ebelanja/go-micro/config"
-	"github.com/ebelanja/go-micro/debug/profile"
-	"github.com/ebelanja/go-micro/debug/trace"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/runtime"
-	"github.com/ebelanja/go-micro/server"
-	"github.com/ebelanja/go-micro/store"
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/auth"
+	"xinhari.com/broker"
+	"xinhari.com/client"
+	"xinhari.com/client/selector"
+	"xinhari.com/config"
+	"xinhari.com/debug/profile"
+	"xinhari.com/debug/trace"
+	"xinhari.com/registry"
+	"xinhari.com/runtime"
+	"xinhari.com/server"
+	"xinhari.com/store"
+	"xinhari.com/transport"
 )
 
 type Options struct {

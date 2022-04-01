@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/registry/memory"
+	"xinhari.com/registry"
+	"xinhari.com/registry/memory"
 )
 
 func TestRoundTripper(t *testing.T) {

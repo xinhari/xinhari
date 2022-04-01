@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ebelanja/go-micro/config/source"
-	"github.com/ebelanja/go-micro/config/source/env"
-	"github.com/ebelanja/go-micro/config/source/file"
-	"github.com/ebelanja/go-micro/config/source/memory"
+	"xinhari.com/config/source"
+	"xinhari.com/config/source/env"
+	"xinhari.com/config/source/file"
+	"xinhari.com/config/source/memory"
 )
 
 func createFileForIssue18(t *testing.T, content string) *os.File {

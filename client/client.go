@@ -5,7 +5,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ebelanja/go-micro/codec"
+	"xinhari.com/codec"
 )
 
 // Client is the interface used to make requests to services.

@@ -7,12 +7,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/errors"
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/metadata"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/broker"
+	"xinhari.com/errors"
+	"xinhari.com/logger"
+	"xinhari.com/metadata"
+	"xinhari.com/registry"
+	"xinhari.com/server"
 )
 
 const (

@@ -3,7 +3,7 @@ package memory
 import (
 	"time"
 
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 func serviceToRecord(s *registry.Service, ttl time.Duration) *record {

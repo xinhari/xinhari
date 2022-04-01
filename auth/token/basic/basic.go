@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ebelanja/go-micro/auth"
-	"github.com/ebelanja/go-micro/auth/token"
-	"github.com/ebelanja/go-micro/store"
 	"github.com/google/uuid"
+	"xinhari.com/auth"
+	"xinhari.com/auth/token"
+	"xinhari.com/store"
 )
 
 // Basic implementation of token provider, backed by the store

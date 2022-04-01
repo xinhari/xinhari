@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ebelanja/go-micro/client"
+	"xinhari.com/client"
 )
 
 // Options contains configuration for the Store

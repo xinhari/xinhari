@@ -5,10 +5,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ebelanja/go-micro/agent/input"
-	"github.com/ebelanja/go-micro/logger"
 	"github.com/forestgiant/sliceutil"
 	tgbotapi "gopkg.in/telegram-bot-api.v4"
+	"xinhari.com/agent/input"
+	"xinhari.com/logger"
 )
 
 type telegramConn struct {

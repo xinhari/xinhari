@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ebelanja/go-micro/auth"
-	"github.com/ebelanja/go-micro/auth/rules"
-	pb "github.com/ebelanja/go-micro/auth/service/proto"
-	"github.com/ebelanja/go-micro/auth/token"
-	"github.com/ebelanja/go-micro/auth/token/jwt"
-	"github.com/ebelanja/go-micro/client"
+	"xinhari.com/auth"
+	"xinhari.com/auth/rules"
+	pb "xinhari.com/auth/service/proto"
+	"xinhari.com/auth/token"
+	"xinhari.com/auth/token/jwt"
+	"xinhari.com/client"
 )
 
 // svc is the service implementation of the Auth interface

@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/runtime"
-	"github.com/ebelanja/go-micro/util/kubernetes/client"
+	log "xinhari.com/logger"
+	"xinhari.com/runtime"
+	"xinhari.com/util/kubernetes/client"
 )
 
 // action to take on runtime service

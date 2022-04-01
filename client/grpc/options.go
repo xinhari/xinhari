@@ -5,9 +5,9 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/ebelanja/go-micro/client"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
+	"xinhari.com/client"
 )
 
 var (

@@ -4,9 +4,9 @@ package cache
 import (
 	"fmt"
 
-	"github.com/ebelanja/go-micro/store"
-	"github.com/ebelanja/go-micro/store/memory"
 	"github.com/pkg/errors"
+	"xinhari.com/store"
+	"xinhari.com/store/memory"
 )
 
 type cache struct {

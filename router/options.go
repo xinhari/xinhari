@@ -1,9 +1,9 @@
 package router
 
 import (
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/registry"
 	"github.com/google/uuid"
+	"xinhari.com/client"
+	"xinhari.com/registry"
 )
 
 // Options are router options

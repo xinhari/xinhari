@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 func addNodes(old, neu []*registry.Node) []*registry.Node {

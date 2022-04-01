@@ -1,9 +1,9 @@
 package router
 
 import (
-	"github.com/ebelanja/go-micro/api/resolver"
-	"github.com/ebelanja/go-micro/api/resolver/vpath"
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/api/resolver"
+	"xinhari.com/api/resolver/vpath"
+	"xinhari.com/registry"
 )
 
 type Options struct {

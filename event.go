@@ -3,7 +3,7 @@ package micro
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/client"
+	"xinhari.com/client"
 )
 
 type event struct {

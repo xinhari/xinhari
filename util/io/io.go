@@ -4,7 +4,7 @@ package io
 import (
 	"io"
 
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/transport"
 )
 
 type rwc struct {

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/transport"
 )
 
 func testBrokenTunAccept(t *testing.T, tun Tunnel, wait chan bool, wg *sync.WaitGroup) {

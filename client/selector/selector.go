@@ -4,7 +4,7 @@ package selector
 import (
 	"errors"
 
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 // Selector builds on the registry as a mechanism to pick nodes

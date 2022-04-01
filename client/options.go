@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/client/selector"
-	"github.com/ebelanja/go-micro/codec"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/broker"
+	"xinhari.com/client/selector"
+	"xinhari.com/codec"
+	"xinhari.com/registry"
+	"xinhari.com/transport"
 )
 
 type Options struct {

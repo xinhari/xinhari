@@ -3,10 +3,10 @@ package tunnel
 import (
 	"time"
 
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/transport"
-	"github.com/ebelanja/go-micro/transport/quic"
 	"github.com/google/uuid"
+	"xinhari.com/logger"
+	"xinhari.com/transport"
+	"xinhari.com/transport/quic"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ebelanja/go-micro/runtime/local/source"
+	"xinhari.com/runtime/local/source"
 )
 
 type Source struct {

@@ -8,9 +8,9 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/ebelanja/go-micro/api"
-	"github.com/ebelanja/go-micro/api/handler"
-	"github.com/ebelanja/go-micro/client/selector"
+	"xinhari.com/api"
+	"xinhari.com/api/handler"
+	"xinhari.com/client/selector"
 )
 
 const (

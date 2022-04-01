@@ -2,7 +2,7 @@
 package http
 
 import (
-	"github.com/ebelanja/go-micro/broker"
+	"xinhari.com/broker"
 )
 
 // NewBroker returns a new http broker

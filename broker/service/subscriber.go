@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/ebelanja/go-micro/broker"
-	pb "github.com/ebelanja/go-micro/broker/service/proto"
-	"github.com/ebelanja/go-micro/logger"
+	"xinhari.com/broker"
+	pb "xinhari.com/broker/service/proto"
+	"xinhari.com/logger"
 )
 
 type serviceSub struct {

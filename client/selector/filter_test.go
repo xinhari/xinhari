@@ -3,7 +3,7 @@ package selector
 import (
 	"testing"
 
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 func TestFilterEndpoint(t *testing.T) {

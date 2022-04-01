@@ -1,12 +1,12 @@
 package reader
 
 import (
-	"github.com/ebelanja/go-micro/config/encoder"
-	"github.com/ebelanja/go-micro/config/encoder/hcl"
-	"github.com/ebelanja/go-micro/config/encoder/json"
-	"github.com/ebelanja/go-micro/config/encoder/toml"
-	"github.com/ebelanja/go-micro/config/encoder/xml"
-	"github.com/ebelanja/go-micro/config/encoder/yaml"
+	"xinhari.com/config/encoder"
+	"xinhari.com/config/encoder/hcl"
+	"xinhari.com/config/encoder/json"
+	"xinhari.com/config/encoder/toml"
+	"xinhari.com/config/encoder/xml"
+	"xinhari.com/config/encoder/yaml"
 )
 
 type Options struct {

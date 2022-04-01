@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 func init() {

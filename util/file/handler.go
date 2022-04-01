@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/ebelanja/go-micro/errors"
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/server"
-	proto "github.com/ebelanja/go-micro/util/file/proto"
 	"golang.org/x/net/context"
+	"xinhari.com/errors"
+	"xinhari.com/logger"
+	"xinhari.com/server"
+	proto "xinhari.com/util/file/proto"
 )
 
 // NewHandler is a handler that can be registered with a micro Server

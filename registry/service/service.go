@@ -5,11 +5,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/client/grpc"
-	"github.com/ebelanja/go-micro/errors"
-	"github.com/ebelanja/go-micro/registry"
-	pb "github.com/ebelanja/go-micro/registry/service/proto"
+	"xinhari.com/client"
+	"xinhari.com/client/grpc"
+	"xinhari.com/errors"
+	"xinhari.com/registry"
+	pb "xinhari.com/registry/service/proto"
 )
 
 var (

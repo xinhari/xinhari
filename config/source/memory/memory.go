@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/config/source"
 	"github.com/google/uuid"
+	"xinhari.com/config/source"
 )
 
 type memory struct {

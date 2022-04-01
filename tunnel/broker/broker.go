@@ -4,9 +4,9 @@ package broker
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/transport"
-	"github.com/ebelanja/go-micro/tunnel"
+	"xinhari.com/broker"
+	"xinhari.com/transport"
+	"xinhari.com/tunnel"
 )
 
 type tunBroker struct {

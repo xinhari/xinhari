@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ebelanja/go-micro/auth"
-	"github.com/ebelanja/go-micro/auth/token"
+	"xinhari.com/auth"
+	"xinhari.com/auth/token"
 )
 
 func TestGenerate(t *testing.T) {

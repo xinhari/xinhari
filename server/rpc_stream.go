@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ebelanja/go-micro/codec"
+	"xinhari.com/codec"
 )
 
 // Implements the Streamer interface

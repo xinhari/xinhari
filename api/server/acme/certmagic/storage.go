@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/caddyserver/certmagic"
-	"github.com/ebelanja/go-micro/store"
-	"github.com/ebelanja/go-micro/sync"
+	"xinhari.com/store"
+	"xinhari.com/sync"
 )
 
 // File represents a "File" that will be stored in store.Store - the contents and last modified time

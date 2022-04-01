@@ -4,16 +4,16 @@ import (
 	"bytes"
 	errs "errors"
 
-	"github.com/ebelanja/go-micro/codec"
-	raw "github.com/ebelanja/go-micro/codec/bytes"
-	"github.com/ebelanja/go-micro/codec/grpc"
-	"github.com/ebelanja/go-micro/codec/json"
-	"github.com/ebelanja/go-micro/codec/jsonrpc"
-	"github.com/ebelanja/go-micro/codec/proto"
-	"github.com/ebelanja/go-micro/codec/protorpc"
-	"github.com/ebelanja/go-micro/errors"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/codec"
+	raw "xinhari.com/codec/bytes"
+	"xinhari.com/codec/grpc"
+	"xinhari.com/codec/json"
+	"xinhari.com/codec/jsonrpc"
+	"xinhari.com/codec/proto"
+	"xinhari.com/codec/protorpc"
+	"xinhari.com/errors"
+	"xinhari.com/registry"
+	"xinhari.com/transport"
 )
 
 const (

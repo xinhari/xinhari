@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/codec"
+	"xinhari.com/client"
+	"xinhari.com/codec"
 )
 
 type grpcRequest struct {

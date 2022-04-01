@@ -10,16 +10,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/client/selector"
-	"github.com/ebelanja/go-micro/codec"
-	"github.com/ebelanja/go-micro/codec/bytes"
-	"github.com/ebelanja/go-micro/errors"
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/metadata"
-	"github.com/ebelanja/go-micro/proxy"
-	"github.com/ebelanja/go-micro/router"
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/client"
+	"xinhari.com/client/selector"
+	"xinhari.com/codec"
+	"xinhari.com/codec/bytes"
+	"xinhari.com/errors"
+	"xinhari.com/logger"
+	"xinhari.com/metadata"
+	"xinhari.com/proxy"
+	"xinhari.com/router"
+	"xinhari.com/server"
 )
 
 // Proxy will transparently proxy requests to an endpoint.

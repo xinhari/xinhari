@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/broker"
+	"xinhari.com/transport"
 )
 
 // event is a broker event we handle on the server transport

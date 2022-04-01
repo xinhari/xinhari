@@ -3,7 +3,7 @@ package memory
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/config/source"
+	"xinhari.com/config/source"
 )
 
 type changeSetKey struct{}

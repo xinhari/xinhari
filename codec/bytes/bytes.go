@@ -6,7 +6,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/ebelanja/go-micro/codec"
+	"xinhari.com/codec"
 )
 
 type Codec struct {

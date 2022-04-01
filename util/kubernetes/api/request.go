@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/ebelanja/go-micro/logger"
+	"xinhari.com/logger"
 )
 
 // Request is used to construct a http request for the k8s API.

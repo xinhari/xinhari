@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ebelanja/go-micro/transport"
-	"github.com/ebelanja/go-micro/transport/memory"
+	"xinhari.com/transport"
+	"xinhari.com/transport/memory"
 )
 
 func testPool(t *testing.T, size int, ttl time.Duration) {

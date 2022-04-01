@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/runtime"
-	pb "github.com/ebelanja/go-micro/runtime/service/proto"
+	"xinhari.com/client"
+	"xinhari.com/runtime"
+	pb "xinhari.com/runtime/service/proto"
 )
 
 type svc struct {

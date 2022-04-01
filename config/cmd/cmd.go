@@ -7,80 +7,80 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ebelanja/go-micro/auth"
-	"github.com/ebelanja/go-micro/auth/provider"
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/client/grpc"
-	"github.com/ebelanja/go-micro/client/selector"
-	"github.com/ebelanja/go-micro/config"
-	configSrc "github.com/ebelanja/go-micro/config/source"
-	configSrv "github.com/ebelanja/go-micro/config/source/service"
-	"github.com/ebelanja/go-micro/debug/profile"
-	"github.com/ebelanja/go-micro/debug/profile/http"
-	"github.com/ebelanja/go-micro/debug/profile/pprof"
-	"github.com/ebelanja/go-micro/debug/trace"
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/registry"
-	registrySrv "github.com/ebelanja/go-micro/registry/service"
-	"github.com/ebelanja/go-micro/runtime"
-	"github.com/ebelanja/go-micro/server"
-	"github.com/ebelanja/go-micro/store"
-	"github.com/ebelanja/go-micro/transport"
-	authutil "github.com/ebelanja/go-micro/util/auth"
-	"github.com/ebelanja/go-micro/util/wrapper"
+	"xinhari.com/auth"
+	"xinhari.com/auth/provider"
+	"xinhari.com/broker"
+	"xinhari.com/client"
+	"xinhari.com/client/grpc"
+	"xinhari.com/client/selector"
+	"xinhari.com/config"
+	configSrc "xinhari.com/config/source"
+	configSrv "xinhari.com/config/source/service"
+	"xinhari.com/debug/profile"
+	"xinhari.com/debug/profile/http"
+	"xinhari.com/debug/profile/pprof"
+	"xinhari.com/debug/trace"
+	"xinhari.com/logger"
+	"xinhari.com/registry"
+	registrySrv "xinhari.com/registry/service"
+	"xinhari.com/runtime"
+	"xinhari.com/server"
+	"xinhari.com/store"
+	"xinhari.com/transport"
+	authutil "xinhari.com/util/auth"
+	"xinhari.com/util/wrapper"
 
 	// clients
-	cgrpc "github.com/ebelanja/go-micro/client/grpc"
-	cmucp "github.com/ebelanja/go-micro/client/mucp"
+	cgrpc "xinhari.com/client/grpc"
+	cmucp "xinhari.com/client/mucp"
 
 	// servers
 	"github.com/micro/cli/v2"
 
-	sgrpc "github.com/ebelanja/go-micro/server/grpc"
-	smucp "github.com/ebelanja/go-micro/server/mucp"
+	sgrpc "xinhari.com/server/grpc"
+	smucp "xinhari.com/server/mucp"
 
 	// brokers
-	brokerHttp "github.com/ebelanja/go-micro/broker/http"
-	"github.com/ebelanja/go-micro/broker/memory"
-	"github.com/ebelanja/go-micro/broker/nats"
-	brokerSrv "github.com/ebelanja/go-micro/broker/service"
+	brokerHttp "xinhari.com/broker/http"
+	"xinhari.com/broker/memory"
+	"xinhari.com/broker/nats"
+	brokerSrv "xinhari.com/broker/service"
 
 	// registries
-	"github.com/ebelanja/go-micro/registry/etcd"
-	"github.com/ebelanja/go-micro/registry/mdns"
-	rmem "github.com/ebelanja/go-micro/registry/memory"
-	regSrv "github.com/ebelanja/go-micro/registry/service"
+	"xinhari.com/registry/etcd"
+	"xinhari.com/registry/mdns"
+	rmem "xinhari.com/registry/memory"
+	regSrv "xinhari.com/registry/service"
 
 	// runtimes
-	kRuntime "github.com/ebelanja/go-micro/runtime/kubernetes"
-	lRuntime "github.com/ebelanja/go-micro/runtime/local"
-	srvRuntime "github.com/ebelanja/go-micro/runtime/service"
+	kRuntime "xinhari.com/runtime/kubernetes"
+	lRuntime "xinhari.com/runtime/local"
+	srvRuntime "xinhari.com/runtime/service"
 
 	// selectors
-	"github.com/ebelanja/go-micro/client/selector/dns"
-	"github.com/ebelanja/go-micro/client/selector/router"
-	"github.com/ebelanja/go-micro/client/selector/static"
+	"xinhari.com/client/selector/dns"
+	"xinhari.com/client/selector/router"
+	"xinhari.com/client/selector/static"
 
 	// transports
-	thttp "github.com/ebelanja/go-micro/transport/http"
-	tmem "github.com/ebelanja/go-micro/transport/memory"
+	thttp "xinhari.com/transport/http"
+	tmem "xinhari.com/transport/memory"
 
 	// stores
-	memStore "github.com/ebelanja/go-micro/store/memory"
-	svcStore "github.com/ebelanja/go-micro/store/service"
+	memStore "xinhari.com/store/memory"
+	svcStore "xinhari.com/store/service"
 
 	// tracers
-	// jTracer "github.com/ebelanja/go-micro/debug/trace/jaeger"
-	memTracer "github.com/ebelanja/go-micro/debug/trace/memory"
+	// jTracer "xinhari.com/debug/trace/jaeger"
+	memTracer "xinhari.com/debug/trace/memory"
 
 	// auth
-	jwtAuth "github.com/ebelanja/go-micro/auth/jwt"
-	svcAuth "github.com/ebelanja/go-micro/auth/service"
+	jwtAuth "xinhari.com/auth/jwt"
+	svcAuth "xinhari.com/auth/service"
 
 	// auth providers
-	"github.com/ebelanja/go-micro/auth/provider/basic"
-	"github.com/ebelanja/go-micro/auth/provider/oauth"
+	"xinhari.com/auth/provider/basic"
+	"xinhari.com/auth/provider/oauth"
 )
 
 type Cmd interface {

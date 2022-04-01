@@ -4,10 +4,10 @@ package config
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/config/loader"
-	"github.com/ebelanja/go-micro/config/reader"
-	"github.com/ebelanja/go-micro/config/source"
-	"github.com/ebelanja/go-micro/config/source/file"
+	"xinhari.com/config/loader"
+	"xinhari.com/config/reader"
+	"xinhari.com/config/source"
+	"xinhari.com/config/source/file"
 )
 
 // Config is an interface abstraction for dynamic configuration

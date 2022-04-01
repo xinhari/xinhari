@@ -7,9 +7,9 @@ import (
 	"net"
 	"os"
 
-	"github.com/ebelanja/go-micro/api/server/acme"
-	"github.com/ebelanja/go-micro/logger"
 	"golang.org/x/crypto/acme/autocert"
+	"xinhari.com/api/server/acme"
+	"xinhari.com/logger"
 )
 
 // autoCertACME is the ACME provider from golang.org/x/crypto/acme/autocert

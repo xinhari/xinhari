@@ -2,9 +2,9 @@
 package box
 
 import (
-	"github.com/ebelanja/go-micro/config/secrets"
 	"github.com/pkg/errors"
 	naclbox "golang.org/x/crypto/nacl/box"
+	"xinhari.com/config/secrets"
 
 	"crypto/rand"
 )

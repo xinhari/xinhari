@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/ebelanja/go-micro/errors"
-	"github.com/ebelanja/go-micro/proxy"
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/errors"
+	"xinhari.com/proxy"
+	"xinhari.com/server"
 )
 
 // Proxy will proxy rpc requests as http POST requests. It is a server.Proxy

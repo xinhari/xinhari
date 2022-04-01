@@ -9,8 +9,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/ebelanja/go-micro/client"
-	proto "github.com/ebelanja/go-micro/util/file/proto"
+	"xinhari.com/client"
+	proto "xinhari.com/util/file/proto"
 )
 
 // Client is the client interface to access files

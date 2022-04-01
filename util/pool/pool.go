@@ -4,7 +4,7 @@ package pool
 import (
 	"time"
 
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/transport"
 )
 
 // Pool is an interface for connection pooling

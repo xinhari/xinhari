@@ -3,9 +3,9 @@ package server
 import (
 	"bytes"
 
-	"github.com/ebelanja/go-micro/codec"
-	"github.com/ebelanja/go-micro/transport"
-	"github.com/ebelanja/go-micro/util/buf"
+	"xinhari.com/codec"
+	"xinhari.com/transport"
+	"xinhari.com/util/buf"
 )
 
 type rpcRequest struct {

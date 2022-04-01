@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ebelanja/go-micro/logger"
+	"xinhari.com/logger"
 )
 
 // InvalidTemplateError indicates that the path template is not valid.

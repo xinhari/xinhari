@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/ebelanja/go-micro/auth/provider"
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/store"
+	"xinhari.com/auth/provider"
+	"xinhari.com/client"
+	"xinhari.com/store"
 )
 
 func NewOptions(opts ...Option) Options {

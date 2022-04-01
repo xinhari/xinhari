@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/api"
-	"github.com/ebelanja/go-micro/api/router"
-	"github.com/ebelanja/go-micro/api/router/util"
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/metadata"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/registry/cache"
+	"xinhari.com/api"
+	"xinhari.com/api/router"
+	"xinhari.com/api/router/util"
+	"xinhari.com/logger"
+	"xinhari.com/metadata"
+	"xinhari.com/registry"
+	"xinhari.com/registry/cache"
 )
 
 // endpoint struct, that holds compiled pcre

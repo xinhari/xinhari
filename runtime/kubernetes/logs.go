@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ebelanja/go-micro/runtime"
-	"github.com/ebelanja/go-micro/util/kubernetes/client"
-	"github.com/ebelanja/go-micro/util/log"
+	"xinhari.com/runtime"
+	"xinhari.com/util/kubernetes/client"
+	"xinhari.com/util/log"
 )
 
 type klog struct {

@@ -2,8 +2,8 @@
 package static
 
 import (
-	"github.com/ebelanja/go-micro/client/selector"
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/client/selector"
+	"xinhari.com/registry"
 )
 
 // staticSelector is a static selector

@@ -3,8 +3,8 @@ package cli
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/config/source"
 	"github.com/micro/cli/v2"
+	"xinhari.com/config/source"
 )
 
 type contextKey struct{}

@@ -3,8 +3,8 @@ package grpc
 import (
 	"net/http"
 
-	"github.com/ebelanja/go-micro/errors"
 	"google.golang.org/grpc/codes"
+	"xinhari.com/errors"
 )
 
 func microError(err *errors.Error) codes.Code {

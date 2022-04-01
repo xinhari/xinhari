@@ -4,7 +4,7 @@ package process
 import (
 	"io"
 
-	"github.com/ebelanja/go-micro/runtime/local/build"
+	"xinhari.com/runtime/local/build"
 )
 
 // Process manages a running process

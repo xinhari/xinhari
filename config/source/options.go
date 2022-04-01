@@ -3,9 +3,9 @@ package source
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/config/encoder"
-	"github.com/ebelanja/go-micro/config/encoder/json"
+	"xinhari.com/client"
+	"xinhari.com/config/encoder"
+	"xinhari.com/config/encoder/json"
 )
 
 type Options struct {

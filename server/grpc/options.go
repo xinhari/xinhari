@@ -5,14 +5,14 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/ebelanja/go-micro/auth"
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/codec"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/server"
-	"github.com/ebelanja/go-micro/transport"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
+	"xinhari.com/auth"
+	"xinhari.com/broker"
+	"xinhari.com/codec"
+	"xinhari.com/registry"
+	"xinhari.com/server"
+	"xinhari.com/transport"
 )
 
 type codecsKey struct{}

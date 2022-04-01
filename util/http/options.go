@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 type Options struct {

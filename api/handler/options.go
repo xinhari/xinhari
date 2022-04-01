@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"github.com/ebelanja/go-micro/api/router"
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/client/grpc"
+	"xinhari.com/api/router"
+	"xinhari.com/client"
+	"xinhari.com/client/grpc"
 )
 
 var (

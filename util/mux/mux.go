@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/debug/service/handler"
-	"github.com/ebelanja/go-micro/proxy"
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/client"
+	"xinhari.com/debug/service/handler"
+	"xinhari.com/proxy"
+	"xinhari.com/server"
 )
 
 // Server is a proxy muxer that incudes the use of the DefaultHandler

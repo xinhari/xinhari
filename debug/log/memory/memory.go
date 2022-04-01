@@ -4,8 +4,8 @@ package memory
 import (
 	"fmt"
 
-	"github.com/ebelanja/go-micro/debug/log"
-	"github.com/ebelanja/go-micro/util/ring"
+	"xinhari.com/debug/log"
+	"xinhari.com/util/ring"
 )
 
 var (

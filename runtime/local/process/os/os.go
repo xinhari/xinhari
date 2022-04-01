@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/ebelanja/go-micro/runtime/local/process"
+	"xinhari.com/runtime/local/process"
 )
 
 func (p *Process) Exec(exe *process.Executable) error {

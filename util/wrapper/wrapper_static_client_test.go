@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ebelanja/go-micro/broker"
-	bmemory "github.com/ebelanja/go-micro/broker/memory"
-	"github.com/ebelanja/go-micro/client"
-	rmemory "github.com/ebelanja/go-micro/registry/memory"
-	"github.com/ebelanja/go-micro/server"
-	tmemory "github.com/ebelanja/go-micro/transport/memory"
-	wrapper "github.com/ebelanja/go-micro/util/wrapper"
+	"xinhari.com/broker"
+	bmemory "xinhari.com/broker/memory"
+	"xinhari.com/client"
+	rmemory "xinhari.com/registry/memory"
+	"xinhari.com/server"
+	tmemory "xinhari.com/transport/memory"
+	wrapper "xinhari.com/util/wrapper"
 )
 
 type TestFoo struct {

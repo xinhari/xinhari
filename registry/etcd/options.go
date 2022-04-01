@@ -3,8 +3,8 @@ package etcd
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/registry"
 	"go.uber.org/zap"
+	"xinhari.com/registry"
 )
 
 type authKey struct{}

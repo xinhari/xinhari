@@ -3,7 +3,7 @@ package scope
 import (
 	"fmt"
 
-	"github.com/ebelanja/go-micro/store"
+	"xinhari.com/store"
 )
 
 // Scope extends the store, applying a prefix to each request

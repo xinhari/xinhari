@@ -3,8 +3,8 @@ package log
 import (
 	"sync"
 
-	"github.com/ebelanja/go-micro/util/ring"
 	"github.com/google/uuid"
+	"xinhari.com/util/ring"
 )
 
 // Should stream from OS

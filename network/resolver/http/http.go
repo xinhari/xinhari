@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/ebelanja/go-micro/network/resolver"
+	"xinhari.com/network/resolver"
 )
 
 // Resolver is a HTTP network resolver

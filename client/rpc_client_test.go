@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ebelanja/go-micro/client/selector"
-	"github.com/ebelanja/go-micro/errors"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/registry/memory"
+	"xinhari.com/client/selector"
+	"xinhari.com/errors"
+	"xinhari.com/registry"
+	"xinhari.com/registry/memory"
 )
 
 func newTestRegistry() registry.Registry {

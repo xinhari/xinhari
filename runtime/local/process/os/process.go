@@ -2,7 +2,7 @@
 package os
 
 import (
-	"github.com/ebelanja/go-micro/runtime/local/process"
+	"xinhari.com/runtime/local/process"
 )
 
 type Process struct{}

@@ -1,5 +1,5 @@
 // Package log is a global internal logger
-// DEPRECATED: this is frozen package, use github.com/ebelanja/go-micro/logger
+// DEPRECATED: this is frozen package, use xinhari.com/logger
 package log
 
 import (
@@ -7,8 +7,8 @@ import (
 	"os"
 	"sync/atomic"
 
-	dlog "github.com/ebelanja/go-micro/debug/log"
-	nlog "github.com/ebelanja/go-micro/logger"
+	dlog "xinhari.com/debug/log"
+	nlog "xinhari.com/logger"
 )
 
 // level is a log level

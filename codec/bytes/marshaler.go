@@ -1,7 +1,7 @@
 package bytes
 
 import (
-	"github.com/ebelanja/go-micro/codec"
+	"xinhari.com/codec"
 )
 
 type Marshaler struct{}

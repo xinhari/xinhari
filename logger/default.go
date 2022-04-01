@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	dlog "github.com/ebelanja/go-micro/debug/log"
+	dlog "xinhari.com/debug/log"
 )
 
 func init() {

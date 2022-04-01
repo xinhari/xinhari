@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/runtime/local/build"
-	"github.com/ebelanja/go-micro/runtime/local/process"
-	proc "github.com/ebelanja/go-micro/runtime/local/process/os"
+	"xinhari.com/logger"
+	"xinhari.com/runtime/local/build"
+	"xinhari.com/runtime/local/process"
+	proc "xinhari.com/runtime/local/process/os"
 )
 
 type service struct {

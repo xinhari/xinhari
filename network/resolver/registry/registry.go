@@ -2,8 +2,8 @@
 package registry
 
 import (
-	"github.com/ebelanja/go-micro/network/resolver"
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/network/resolver"
+	"xinhari.com/registry"
 )
 
 // Resolver is a registry network resolver

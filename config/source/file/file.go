@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ebelanja/go-micro/config/source"
+	"xinhari.com/config/source"
 )
 
 type file struct {

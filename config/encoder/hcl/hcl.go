@@ -3,8 +3,8 @@ package hcl
 import (
 	"encoding/json"
 
-	"github.com/ebelanja/go-micro/config/encoder"
 	"github.com/hashicorp/hcl"
+	"xinhari.com/config/encoder"
 )
 
 type hclEncoder struct{}

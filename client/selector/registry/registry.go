@@ -2,7 +2,7 @@
 package registry
 
 import (
-	"github.com/ebelanja/go-micro/client/selector"
+	"xinhari.com/client/selector"
 )
 
 // NewSelector returns a new registry selector

@@ -2,8 +2,8 @@
 package service
 
 import (
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/client"
+	"xinhari.com/server"
 )
 
 // Service is an interface for a micro service

@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/registry"
-	util "github.com/ebelanja/go-micro/util/registry"
+	"xinhari.com/logger"
+	"xinhari.com/registry"
+	util "xinhari.com/util/registry"
 )
 
 // Cache is the registry cache interface

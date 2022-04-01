@@ -5,19 +5,19 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ebelanja/go-micro"
-	bmemory "github.com/ebelanja/go-micro/broker/memory"
-	"github.com/ebelanja/go-micro/client"
-	gcli "github.com/ebelanja/go-micro/client/grpc"
-	"github.com/ebelanja/go-micro/errors"
-	rmemory "github.com/ebelanja/go-micro/registry/memory"
-	"github.com/ebelanja/go-micro/server"
-	gsrv "github.com/ebelanja/go-micro/server/grpc"
-	tgrpc "github.com/ebelanja/go-micro/transport/grpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
+	micro "xinhari.com"
+	bmemory "xinhari.com/broker/memory"
+	"xinhari.com/client"
+	gcli "xinhari.com/client/grpc"
+	"xinhari.com/errors"
+	rmemory "xinhari.com/registry/memory"
+	"xinhari.com/server"
+	gsrv "xinhari.com/server/grpc"
+	tgrpc "xinhari.com/transport/grpc"
 
-	pb "github.com/ebelanja/go-micro/server/grpc/proto"
+	pb "xinhari.com/server/grpc/proto"
 )
 
 // server is used to implement helloworld.GreeterServer.

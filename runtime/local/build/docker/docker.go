@@ -8,9 +8,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/runtime/local/build"
 	docker "github.com/fsouza/go-dockerclient"
+	"xinhari.com/logger"
+	"xinhari.com/runtime/local/build"
 )
 
 type Builder struct {

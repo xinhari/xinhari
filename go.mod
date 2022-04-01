@@ -1,4 +1,4 @@
-module github.com/ebelanja/go-micro
+module xinhari.com
 
 go 1.13
 

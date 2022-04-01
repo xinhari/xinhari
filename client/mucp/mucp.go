@@ -2,7 +2,7 @@
 package mucp
 
 import (
-	"github.com/ebelanja/go-micro/client"
+	"xinhari.com/client"
 )
 
 // NewClient returns a new micro client interface

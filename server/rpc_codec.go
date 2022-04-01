@@ -4,16 +4,16 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/ebelanja/go-micro/codec"
-	raw "github.com/ebelanja/go-micro/codec/bytes"
-	"github.com/ebelanja/go-micro/codec/grpc"
-	"github.com/ebelanja/go-micro/codec/json"
-	"github.com/ebelanja/go-micro/codec/jsonrpc"
-	"github.com/ebelanja/go-micro/codec/proto"
-	"github.com/ebelanja/go-micro/codec/protorpc"
-	"github.com/ebelanja/go-micro/transport"
 	"github.com/oxtoacart/bpool"
 	"github.com/pkg/errors"
+	"xinhari.com/codec"
+	raw "xinhari.com/codec/bytes"
+	"xinhari.com/codec/grpc"
+	"xinhari.com/codec/json"
+	"xinhari.com/codec/jsonrpc"
+	"xinhari.com/codec/proto"
+	"xinhari.com/codec/protorpc"
+	"xinhari.com/transport"
 )
 
 type rpcCodec struct {

@@ -2,7 +2,7 @@
 package registry
 
 import (
-	"github.com/ebelanja/go-micro/network/resolver"
+	"xinhari.com/network/resolver"
 )
 
 // Resolver returns a static list of nodes. In the event the node list

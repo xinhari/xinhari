@@ -4,8 +4,8 @@ package micro
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/client"
+	"xinhari.com/server"
 )
 
 type serviceKey struct{}

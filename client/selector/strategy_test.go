@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 func TestStrategies(t *testing.T) {

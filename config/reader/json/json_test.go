@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	"github.com/ebelanja/go-micro/config/source"
+	"xinhari.com/config/source"
 )
 
 func TestReader(t *testing.T) {

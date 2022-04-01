@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ebelanja/go-micro/registry/memory"
+	"xinhari.com/registry/memory"
 )
 
 func TestRegistrySelector(t *testing.T) {

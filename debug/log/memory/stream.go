@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/ebelanja/go-micro/debug/log"
+	"xinhari.com/debug/log"
 )
 
 type logStream struct {

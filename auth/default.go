@@ -1,8 +1,8 @@
 package auth
 
 import (
-	"github.com/ebelanja/go-micro/auth/provider/basic"
 	"github.com/google/uuid"
+	"xinhari.com/auth/provider/basic"
 )
 
 var (

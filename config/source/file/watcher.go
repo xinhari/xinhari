@@ -5,8 +5,8 @@ package file
 import (
 	"os"
 
-	"github.com/ebelanja/go-micro/config/source"
 	"github.com/fsnotify/fsnotify"
+	"xinhari.com/config/source"
 )
 
 type watcher struct {

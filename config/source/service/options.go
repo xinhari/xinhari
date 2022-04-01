@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/config/source"
+	"xinhari.com/config/source"
 )
 
 type serviceNameKey struct{}

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ebelanja/go-micro/auth"
+	"xinhari.com/auth"
 )
 
 // Verify an account has access to a resource using the rules provided. If the account does not have

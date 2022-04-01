@@ -4,11 +4,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ebelanja/go-micro/config/encoder"
-	"github.com/ebelanja/go-micro/config/encoder/json"
-	"github.com/ebelanja/go-micro/config/reader"
-	"github.com/ebelanja/go-micro/config/source"
 	"github.com/imdario/mergo"
+	"xinhari.com/config/encoder"
+	"xinhari.com/config/encoder/json"
+	"xinhari.com/config/reader"
+	"xinhari.com/config/source"
 )
 
 type jsonReader struct {

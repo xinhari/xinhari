@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 // CallFunc represents the individual call func

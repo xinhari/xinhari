@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/ebelanja/go-micro/client/selector"
-	"github.com/ebelanja/go-micro/metadata"
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/client/selector"
+	"xinhari.com/metadata"
+	"xinhari.com/registry"
 )
 
 // Write sets the status and body on a http ResponseWriter

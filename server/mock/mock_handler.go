@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/registry"
+	"xinhari.com/server"
 )
 
 type MockHandler struct {

@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	api "github.com/ebelanja/go-micro/api/proto"
-	"github.com/ebelanja/go-micro/client/selector"
-	"github.com/ebelanja/go-micro/registry"
 	"github.com/oxtoacart/bpool"
+	api "xinhari.com/api/proto"
+	"xinhari.com/client/selector"
+	"xinhari.com/registry"
 )
 
 var (

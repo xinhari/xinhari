@@ -3,9 +3,9 @@
 package secretbox
 
 import (
-	"github.com/ebelanja/go-micro/config/secrets"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/nacl/secretbox"
+	"xinhari.com/config/secrets"
 
 	"crypto/rand"
 )

@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/store"
 	"github.com/lib/pq"
 	"github.com/pkg/errors"
+	"xinhari.com/logger"
+	"xinhari.com/store"
 )
 
 // DefaultDatabase is the namespace that the sql store

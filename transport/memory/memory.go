@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/transport"
-	maddr "github.com/ebelanja/go-micro/util/addr"
-	mnet "github.com/ebelanja/go-micro/util/net"
+	"xinhari.com/transport"
+	maddr "xinhari.com/util/addr"
+	mnet "xinhari.com/util/net"
 )
 
 type memorySocket struct {

@@ -8,10 +8,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/ebelanja/go-micro/api/server"
-	"github.com/ebelanja/go-micro/api/server/cors"
-	"github.com/ebelanja/go-micro/logger"
 	"github.com/gorilla/handlers"
+	"xinhari.com/api/server"
+	"xinhari.com/api/server/cors"
+	"xinhari.com/logger"
 )
 
 type httpServer struct {

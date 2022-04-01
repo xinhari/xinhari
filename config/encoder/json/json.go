@@ -3,7 +3,7 @@ package json
 import (
 	"encoding/json"
 
-	"github.com/ebelanja/go-micro/config/encoder"
+	"xinhari.com/config/encoder"
 )
 
 type jsonEncoder struct{}

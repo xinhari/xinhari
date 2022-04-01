@@ -4,7 +4,7 @@ package proxy
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/server"
 )
 
 // Proxy can be used as a proxy server for go-micro services

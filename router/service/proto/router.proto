@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package go.micro.router;
 
-option go_package = "github.com/ebelanja/go-micro/router/service/proto;router";
+option go_package = "xinhari.com/router/service/proto;router";
 // Router service is used by the proxy to lookup routes
 service Router {
   rpc Lookup(LookupRequest) returns (LookupResponse) {};

@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 var (

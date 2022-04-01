@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ebelanja/go-micro/store"
 	"github.com/patrickmn/go-cache"
 	"github.com/pkg/errors"
+	"xinhari.com/store"
 )
 
 // NewStore returns a memory store

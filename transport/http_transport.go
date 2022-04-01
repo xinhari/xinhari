@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
-	maddr "github.com/ebelanja/go-micro/util/addr"
-	"github.com/ebelanja/go-micro/util/buf"
-	mnet "github.com/ebelanja/go-micro/util/net"
-	mls "github.com/ebelanja/go-micro/util/tls"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
+	maddr "xinhari.com/util/addr"
+	"xinhari.com/util/buf"
+	mnet "xinhari.com/util/net"
+	mls "xinhari.com/util/tls"
 )
 
 type httpTransport struct {

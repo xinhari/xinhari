@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/ebelanja/go-micro/auth/provider"
+	"xinhari.com/auth/provider"
 )
 
 // NewProvider returns an initialised oauth provider

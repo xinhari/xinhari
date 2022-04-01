@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/runtime"
-	"github.com/ebelanja/go-micro/util/kubernetes/api"
-	"github.com/ebelanja/go-micro/util/kubernetes/client"
+	"xinhari.com/logger"
+	"xinhari.com/runtime"
+	"xinhari.com/util/kubernetes/api"
+	"xinhari.com/util/kubernetes/client"
 )
 
 type service struct {

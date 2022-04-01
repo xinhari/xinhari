@@ -7,11 +7,11 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/ebelanja/go-micro/codec"
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/registry"
-	signalutil "github.com/ebelanja/go-micro/util/signal"
 	"github.com/google/uuid"
+	"xinhari.com/codec"
+	"xinhari.com/logger"
+	"xinhari.com/registry"
+	signalutil "xinhari.com/util/signal"
 )
 
 // Server is a simple micro server abstraction

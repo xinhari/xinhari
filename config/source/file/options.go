@@ -3,7 +3,7 @@ package file
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/config/source"
+	"xinhari.com/config/source"
 )
 
 type filePathKey struct{}

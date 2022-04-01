@@ -1,11 +1,11 @@
 package grpc
 
 import (
-	"github.com/ebelanja/go-micro/client"
-	gclient "github.com/ebelanja/go-micro/client/grpc"
-	"github.com/ebelanja/go-micro/server"
-	gserver "github.com/ebelanja/go-micro/server/grpc"
-	"github.com/ebelanja/go-micro/service"
+	"xinhari.com/client"
+	gclient "xinhari.com/client/grpc"
+	"xinhari.com/server"
+	gserver "xinhari.com/server/grpc"
+	"xinhari.com/service"
 )
 
 type grpcService struct {

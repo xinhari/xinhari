@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ebelanja/go-micro/config"
-	"github.com/ebelanja/go-micro/config/source/file"
+	"xinhari.com/config"
+	"xinhari.com/config/source/file"
 )
 
 func TestConfig(t *testing.T) {

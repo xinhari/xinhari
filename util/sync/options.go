@@ -3,7 +3,7 @@ package sync
 import (
 	"time"
 
-	"github.com/ebelanja/go-micro/store"
+	"xinhari.com/store"
 )
 
 // Options represents Sync options

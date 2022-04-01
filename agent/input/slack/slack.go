@@ -4,9 +4,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ebelanja/go-micro/agent/input"
 	"github.com/micro/cli/v2"
 	"github.com/nlopes/slack"
+	"xinhari.com/agent/input"
 )
 
 type slackInput struct {

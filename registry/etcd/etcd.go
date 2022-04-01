@@ -15,10 +15,10 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/registry"
 	hash "github.com/mitchellh/hashstructure"
 	"go.uber.org/zap"
+	"xinhari.com/logger"
+	"xinhari.com/registry"
 )
 
 var (

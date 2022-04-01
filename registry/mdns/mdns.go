@@ -4,7 +4,7 @@ package mdns
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 // NewRegistry returns a new mdns registry

@@ -1,8 +1,8 @@
 package nats
 
 import (
-	"github.com/ebelanja/go-micro/broker"
 	nats "github.com/nats-io/nats.go"
+	"xinhari.com/broker"
 )
 
 type optionsKey struct{}

@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/ebelanja/go-micro/config/source"
-	proto "github.com/ebelanja/go-micro/config/source/service/proto"
+	"xinhari.com/config/source"
+	proto "xinhari.com/config/source/service/proto"
 )
 
 type watcher struct {

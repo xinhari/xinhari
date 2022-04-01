@@ -6,13 +6,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/ebelanja/go-micro/api/handler"
-	"github.com/ebelanja/go-micro/api/resolver"
-	"github.com/ebelanja/go-micro/api/resolver/vpath"
-	"github.com/ebelanja/go-micro/api/router"
-	regRouter "github.com/ebelanja/go-micro/api/router/registry"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/registry/memory"
+	"xinhari.com/api/handler"
+	"xinhari.com/api/resolver"
+	"xinhari.com/api/resolver/vpath"
+	"xinhari.com/api/router"
+	regRouter "xinhari.com/api/router/registry"
+	"xinhari.com/registry"
+	"xinhari.com/registry/memory"
 )
 
 func testHttp(t *testing.T, path, service, ns string) {

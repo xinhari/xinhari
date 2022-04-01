@@ -4,11 +4,11 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/config/source"
-	proto "github.com/ebelanja/go-micro/config/source/service/proto"
-	"github.com/ebelanja/go-micro/errors"
-	"github.com/ebelanja/go-micro/logger"
+	"xinhari.com/client"
+	"xinhari.com/config/source"
+	proto "xinhari.com/config/source/service/proto"
+	"xinhari.com/errors"
+	"xinhari.com/logger"
 )
 
 var (

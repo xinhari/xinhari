@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ebelanja/go-micro/debug/log"
 	"github.com/stretchr/testify/assert"
+	"xinhari.com/debug/log"
 )
 
 func TestKubernetes(t *testing.T) {

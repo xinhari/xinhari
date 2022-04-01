@@ -7,7 +7,7 @@ import (
 	"net/http/pprof"
 	"sync"
 
-	"github.com/ebelanja/go-micro/debug/profile"
+	"xinhari.com/debug/profile"
 )
 
 type httpProfile struct {

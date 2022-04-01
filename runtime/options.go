@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/ebelanja/go-micro/client"
+	"xinhari.com/client"
 )
 
 type Option func(o *Options)

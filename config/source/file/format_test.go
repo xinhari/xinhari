@@ -3,7 +3,7 @@ package file
 import (
 	"testing"
 
-	"github.com/ebelanja/go-micro/config/source"
+	"xinhari.com/config/source"
 )
 
 func TestFormat(t *testing.T) {

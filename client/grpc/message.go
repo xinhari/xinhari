@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"github.com/ebelanja/go-micro/client"
+	"xinhari.com/client"
 )
 
 type grpcEvent struct {

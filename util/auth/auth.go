@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ebelanja/go-micro/auth"
-	"github.com/ebelanja/go-micro/logger"
+	"xinhari.com/auth"
+	"xinhari.com/logger"
 )
 
 // Generate generates a service account for and continually

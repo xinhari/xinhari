@@ -3,11 +3,11 @@ package grpc
 import (
 	"runtime/debug"
 
-	"github.com/ebelanja/go-micro/errors"
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/transport"
-	pb "github.com/ebelanja/go-micro/transport/grpc/proto"
 	"google.golang.org/grpc/peer"
+	"xinhari.com/errors"
+	"xinhari.com/logger"
+	"xinhari.com/transport"
+	pb "xinhari.com/transport/grpc/proto"
 )
 
 // microTransport satisfies the pb.TransportServer inteface

@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/config/loader"
-	"github.com/ebelanja/go-micro/config/reader"
-	"github.com/ebelanja/go-micro/config/reader/json"
-	"github.com/ebelanja/go-micro/config/source"
+	"xinhari.com/config/loader"
+	"xinhari.com/config/reader"
+	"xinhari.com/config/reader/json"
+	"xinhari.com/config/source"
 )
 
 type memory struct {

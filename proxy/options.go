@@ -2,8 +2,8 @@
 package proxy
 
 import (
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/router"
+	"xinhari.com/client"
+	"xinhari.com/router"
 )
 
 type Options struct {

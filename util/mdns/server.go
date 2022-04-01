@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	log "github.com/ebelanja/go-micro/logger"
 	"github.com/miekg/dns"
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"
+	log "xinhari.com/logger"
 )
 
 var (

@@ -3,8 +3,8 @@ package service
 import (
 	"time"
 
-	"github.com/ebelanja/go-micro/debug"
-	"github.com/ebelanja/go-micro/debug/log"
+	"xinhari.com/debug"
+	"xinhari.com/debug/log"
 )
 
 type serviceLog struct {

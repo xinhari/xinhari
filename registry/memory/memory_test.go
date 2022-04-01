@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 var (

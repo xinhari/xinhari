@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ebelanja/go-micro/logger"
+	"xinhari.com/logger"
 )
 
 var (

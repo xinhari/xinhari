@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"net/http"
 
-	"github.com/ebelanja/go-micro/api/resolver"
-	"github.com/ebelanja/go-micro/api/server/acme"
+	"xinhari.com/api/resolver"
+	"xinhari.com/api/server/acme"
 )
 
 type Option func(o *Options)

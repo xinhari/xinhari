@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/registry"
 	"github.com/google/uuid"
+	"xinhari.com/logger"
+	"xinhari.com/registry"
 )
 
 var (

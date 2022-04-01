@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ebelanja/go-micro/broker"
+	"xinhari.com/broker"
 )
 
 func TestMemoryBroker(t *testing.T) {

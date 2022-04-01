@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/auth"
-	"github.com/ebelanja/go-micro/auth/rules"
-	"github.com/ebelanja/go-micro/auth/token"
-	jwtToken "github.com/ebelanja/go-micro/auth/token/jwt"
+	"xinhari.com/auth"
+	"xinhari.com/auth/rules"
+	"xinhari.com/auth/token"
+	jwtToken "xinhari.com/auth/token/jwt"
 )
 
 // NewAuth returns a new instance of the Auth service

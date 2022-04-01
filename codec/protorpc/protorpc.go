@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/ebelanja/go-micro/codec"
 	"github.com/golang/protobuf/proto"
+	"xinhari.com/codec"
 )
 
 type flusher interface {

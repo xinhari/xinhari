@@ -2,7 +2,7 @@
 package build
 
 import (
-	"github.com/ebelanja/go-micro/runtime/local/source"
+	"xinhari.com/runtime/local/source"
 )
 
 // Builder builds binaries

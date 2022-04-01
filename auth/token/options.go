@@ -3,7 +3,7 @@ package token
 import (
 	"time"
 
-	"github.com/ebelanja/go-micro/store"
+	"xinhari.com/store"
 )
 
 type Options struct {

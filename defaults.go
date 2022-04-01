@@ -1,16 +1,16 @@
 package micro
 
 import (
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/debug/trace"
-	"github.com/ebelanja/go-micro/server"
-	"github.com/ebelanja/go-micro/store"
+	"xinhari.com/client"
+	"xinhari.com/debug/trace"
+	"xinhari.com/server"
+	"xinhari.com/store"
 
 	// set defaults
-	gcli "github.com/ebelanja/go-micro/client/grpc"
-	memTrace "github.com/ebelanja/go-micro/debug/trace/memory"
-	gsrv "github.com/ebelanja/go-micro/server/grpc"
-	memoryStore "github.com/ebelanja/go-micro/store/memory"
+	gcli "xinhari.com/client/grpc"
+	memTrace "xinhari.com/debug/trace/memory"
+	gsrv "xinhari.com/server/grpc"
+	memoryStore "xinhari.com/store/memory"
 )
 
 func init() {

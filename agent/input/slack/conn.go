@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/agent/input"
 	"github.com/nlopes/slack"
+	"xinhari.com/agent/input"
 )
 
 // Satisfies the input.Conn interface

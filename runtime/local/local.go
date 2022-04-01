@@ -2,7 +2,7 @@
 package local
 
 import (
-	"github.com/ebelanja/go-micro/runtime"
+	"xinhari.com/runtime"
 )
 
 // NewRuntime returns a new local runtime

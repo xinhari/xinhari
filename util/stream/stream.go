@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/codec"
-	"github.com/ebelanja/go-micro/metadata"
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/client"
+	"xinhari.com/codec"
+	"xinhari.com/metadata"
+	"xinhari.com/server"
 )
 
 type Stream interface {

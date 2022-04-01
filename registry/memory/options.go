@@ -3,7 +3,7 @@ package memory
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/registry"
 )
 
 type servicesKey struct{}

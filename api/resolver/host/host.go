@@ -4,7 +4,7 @@ package host
 import (
 	"net/http"
 
-	"github.com/ebelanja/go-micro/api/resolver"
+	"xinhari.com/api/resolver"
 )
 
 type Resolver struct {

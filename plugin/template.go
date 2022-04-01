@@ -5,7 +5,7 @@ var (
 package main
 
 import (
-	"github.com/ebelanja/go-micro/plugin"
+	"xinhari.com/plugin"
 
 	"{{.Path}}"
 )

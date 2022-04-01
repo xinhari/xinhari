@@ -6,11 +6,11 @@ import (
 	"io"
 	"strings"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/client/grpc"
-	"github.com/ebelanja/go-micro/codec"
-	"github.com/ebelanja/go-micro/proxy"
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/client"
+	"xinhari.com/client/grpc"
+	"xinhari.com/codec"
+	"xinhari.com/proxy"
+	"xinhari.com/server"
 )
 
 // Proxy will transparently proxy requests to the backend.

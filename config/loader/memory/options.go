@@ -1,9 +1,9 @@
 package memory
 
 import (
-	"github.com/ebelanja/go-micro/config/loader"
-	"github.com/ebelanja/go-micro/config/reader"
-	"github.com/ebelanja/go-micro/config/source"
+	"xinhari.com/config/loader"
+	"xinhari.com/config/reader"
+	"xinhari.com/config/source"
 )
 
 // WithSource appends a source to list of sources

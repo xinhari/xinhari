@@ -17,15 +17,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/codec/json"
-	merr "github.com/ebelanja/go-micro/errors"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/registry/cache"
-	maddr "github.com/ebelanja/go-micro/util/addr"
-	mnet "github.com/ebelanja/go-micro/util/net"
-	mls "github.com/ebelanja/go-micro/util/tls"
 	"github.com/google/uuid"
 	"golang.org/x/net/http2"
+	"xinhari.com/codec/json"
+	merr "xinhari.com/errors"
+	"xinhari.com/registry"
+	"xinhari.com/registry/cache"
+	maddr "xinhari.com/util/addr"
+	mnet "xinhari.com/util/net"
+	mls "xinhari.com/util/tls"
 )
 
 // HTTP Broker is a point to point async broker

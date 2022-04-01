@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/registry/memory"
 	"github.com/google/uuid"
+	"xinhari.com/broker"
+	"xinhari.com/registry"
+	"xinhari.com/registry/memory"
 )
 
 var (

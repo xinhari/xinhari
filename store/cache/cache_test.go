@@ -4,9 +4,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ebelanja/go-micro/store"
-	"github.com/ebelanja/go-micro/store/memory"
 	"github.com/stretchr/testify/assert"
+	"xinhari.com/store"
+	"xinhari.com/store/memory"
 )
 
 func TestCache(t *testing.T) {

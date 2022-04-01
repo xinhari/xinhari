@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/runtime/local/git"
 	"github.com/hpcloud/tail"
+	"xinhari.com/logger"
+	"xinhari.com/runtime/local/git"
 )
 
 // defaultNamespace to use if not provided as an option

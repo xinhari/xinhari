@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/logger"
+	"xinhari.com/transport"
 )
 
 // session is our pseudo session for transport.Socket

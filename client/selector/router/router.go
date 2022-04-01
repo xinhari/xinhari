@@ -7,11 +7,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/client/selector"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/router"
-	pb "github.com/ebelanja/go-micro/router/service/proto"
+	"xinhari.com/client"
+	"xinhari.com/client/selector"
+	"xinhari.com/registry"
+	"xinhari.com/router"
+	pb "xinhari.com/router/service/proto"
 )
 
 type routerSelector struct {

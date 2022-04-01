@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/store"
 	"github.com/ef-ds/deque"
 	"github.com/pkg/errors"
+	"xinhari.com/store"
 )
 
 // Sync implements a sync in for stores

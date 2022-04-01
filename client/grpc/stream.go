@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ebelanja/go-micro/client"
 	"google.golang.org/grpc"
+	"xinhari.com/client"
 )
 
 // Implements the streamer interface

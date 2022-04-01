@@ -1,7 +1,7 @@
 package basic
 
 import (
-	"github.com/ebelanja/go-micro/auth/provider"
+	"xinhari.com/auth/provider"
 )
 
 // NewProvider returns an initialised basic provider

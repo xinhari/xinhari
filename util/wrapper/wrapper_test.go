@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ebelanja/go-micro/auth"
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/errors"
-	"github.com/ebelanja/go-micro/metadata"
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/auth"
+	"xinhari.com/client"
+	"xinhari.com/errors"
+	"xinhari.com/metadata"
+	"xinhari.com/server"
 )
 
 func TestWrapper(t *testing.T) {

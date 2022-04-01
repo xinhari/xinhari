@@ -5,8 +5,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/ebelanja/go-micro/network/resolver"
 	"github.com/miekg/dns"
+	"xinhari.com/network/resolver"
 )
 
 // Resolver is a DNS network resolve

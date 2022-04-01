@@ -14,8 +14,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/logger"
+	"xinhari.com/server"
 )
 
 var (

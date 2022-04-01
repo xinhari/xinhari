@@ -7,13 +7,13 @@ import (
 
 	b "bytes"
 
-	"github.com/ebelanja/go-micro/codec"
-	"github.com/ebelanja/go-micro/codec/bytes"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 	"github.com/oxtoacart/bpool"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
+	"xinhari.com/codec"
+	"xinhari.com/codec/bytes"
 )
 
 type jsonCodec struct{}

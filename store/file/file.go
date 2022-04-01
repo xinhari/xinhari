@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/store"
 	bolt "go.etcd.io/bbolt"
+	"xinhari.com/store"
 )
 
 var (

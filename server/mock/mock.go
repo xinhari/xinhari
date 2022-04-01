@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ebelanja/go-micro/server"
 	"github.com/google/uuid"
+	"xinhari.com/server"
 )
 
 type MockServer struct {

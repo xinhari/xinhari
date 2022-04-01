@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ebelanja/go-micro/client/selector"
+	"xinhari.com/client/selector"
 )
 
 // Set the registry cache ttl

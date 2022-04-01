@@ -3,8 +3,8 @@ package grpc
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/server"
 	"google.golang.org/grpc"
+	"xinhari.com/server"
 )
 
 // rpcStream implements a server side Stream.

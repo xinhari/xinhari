@@ -7,11 +7,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/codec/json"
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/registry"
 	nats "github.com/nats-io/nats.go"
+	"xinhari.com/broker"
+	"xinhari.com/codec/json"
+	"xinhari.com/logger"
+	"xinhari.com/registry"
 )
 
 type natsBroker struct {

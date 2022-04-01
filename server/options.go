@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/auth"
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/codec"
-	"github.com/ebelanja/go-micro/debug/trace"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/auth"
+	"xinhari.com/broker"
+	"xinhari.com/codec"
+	"xinhari.com/debug/trace"
+	"xinhari.com/registry"
+	"xinhari.com/transport"
 )
 
 type Options struct {

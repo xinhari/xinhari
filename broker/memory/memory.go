@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/logger"
-	maddr "github.com/ebelanja/go-micro/util/addr"
-	mnet "github.com/ebelanja/go-micro/util/net"
 	"github.com/google/uuid"
+	"xinhari.com/broker"
+	"xinhari.com/logger"
+	maddr "xinhari.com/util/addr"
+	mnet "xinhari.com/util/net"
 )
 
 type memoryBroker struct {

@@ -3,8 +3,8 @@ package sync
 import (
 	"time"
 
-	"github.com/ebelanja/go-micro/store"
 	"github.com/pkg/errors"
+	"xinhari.com/store"
 )
 
 type operation struct {

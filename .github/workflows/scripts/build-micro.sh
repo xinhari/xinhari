@@ -2,7 +2,7 @@
 # set -x
 
 failed=0
-go mod edit -replace github.com/ebelanja/go-micro=github.com/ebelanja/go-micro@$1 
+go mod edit -replace xinhari.com=xinhari.com@$1 
 # basic test, build the binary
 go build
 failed=$?

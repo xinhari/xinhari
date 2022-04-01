@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ebelanja/go-micro/api/resolver"
+	"xinhari.com/api/resolver"
 )
 
 func NewResolver(opts ...resolver.Option) resolver.Resolver {

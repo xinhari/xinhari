@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ebelanja/go-micro/server"
+	"xinhari.com/server"
 )
 
 type function struct {

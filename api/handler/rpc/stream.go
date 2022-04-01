@@ -9,14 +9,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ebelanja/go-micro/api"
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/client/selector"
-	raw "github.com/ebelanja/go-micro/codec/bytes"
-	"github.com/ebelanja/go-micro/logger"
 	"github.com/gobwas/httphead"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
+	"xinhari.com/api"
+	"xinhari.com/client"
+	"xinhari.com/client/selector"
+	raw "xinhari.com/codec/bytes"
+	"xinhari.com/logger"
 )
 
 // serveWebsocket will stream rpc back over websockets assuming json

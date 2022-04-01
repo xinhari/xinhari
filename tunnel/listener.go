@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ebelanja/go-micro/logger"
+	"xinhari.com/logger"
 )
 
 type tunListener struct {

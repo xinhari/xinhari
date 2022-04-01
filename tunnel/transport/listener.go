@@ -1,8 +1,8 @@
 package transport
 
 import (
-	"github.com/ebelanja/go-micro/transport"
-	"github.com/ebelanja/go-micro/tunnel"
+	"xinhari.com/transport"
+	"xinhari.com/tunnel"
 )
 
 type tunListener struct {

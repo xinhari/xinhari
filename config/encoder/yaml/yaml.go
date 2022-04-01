@@ -1,8 +1,8 @@
 package yaml
 
 import (
-	"github.com/ebelanja/go-micro/config/encoder"
 	"github.com/ghodss/yaml"
+	"xinhari.com/config/encoder"
 )
 
 type yamlEncoder struct{}

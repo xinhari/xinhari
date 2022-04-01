@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/router"
-	pb "github.com/ebelanja/go-micro/router/service/proto"
+	"xinhari.com/client"
+	"xinhari.com/router"
+	pb "xinhari.com/router/service/proto"
 )
 
 type table struct {

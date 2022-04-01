@@ -18,8 +18,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ebelanja/go-micro/codec"
-	merrors "github.com/ebelanja/go-micro/errors"
+	"xinhari.com/codec"
+	merrors "xinhari.com/errors"
 )
 
 var (

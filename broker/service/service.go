@@ -5,10 +5,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/ebelanja/go-micro/broker"
-	pb "github.com/ebelanja/go-micro/broker/service/proto"
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/logger"
+	"xinhari.com/broker"
+	pb "xinhari.com/broker/service/proto"
+	"xinhari.com/client"
+	"xinhari.com/logger"
 )
 
 type serviceBroker struct {

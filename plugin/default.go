@@ -11,13 +11,13 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/ebelanja/go-micro/broker"
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/client/selector"
-	"github.com/ebelanja/go-micro/config/cmd"
-	"github.com/ebelanja/go-micro/registry"
-	"github.com/ebelanja/go-micro/server"
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/broker"
+	"xinhari.com/client"
+	"xinhari.com/client/selector"
+	"xinhari.com/config/cmd"
+	"xinhari.com/registry"
+	"xinhari.com/server"
+	"xinhari.com/transport"
 )
 
 type plugin struct{}

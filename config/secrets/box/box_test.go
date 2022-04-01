@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ebelanja/go-micro/config/secrets"
 	naclbox "golang.org/x/crypto/nacl/box"
+	"xinhari.com/config/secrets"
 )
 
 func TestBox(t *testing.T) {

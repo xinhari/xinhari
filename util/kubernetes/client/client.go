@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ebelanja/go-micro/logger"
-	"github.com/ebelanja/go-micro/util/kubernetes/api"
+	"xinhari.com/logger"
+	"xinhari.com/util/kubernetes/api"
 )
 
 var (

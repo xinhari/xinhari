@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ebelanja/go-micro/config/source"
 	"github.com/imdario/mergo"
+	"xinhari.com/config/source"
 )
 
 var (

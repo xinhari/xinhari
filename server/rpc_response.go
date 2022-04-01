@@ -3,8 +3,8 @@ package server
 import (
 	"net/http"
 
-	"github.com/ebelanja/go-micro/codec"
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/codec"
+	"xinhari.com/transport"
 )
 
 type rpcResponse struct {

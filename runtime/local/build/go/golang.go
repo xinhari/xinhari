@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/ebelanja/go-micro/runtime/local/build"
+	"xinhari.com/runtime/local/build"
 )
 
 type Builder struct {

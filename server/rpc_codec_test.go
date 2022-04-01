@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ebelanja/go-micro/codec"
-	"github.com/ebelanja/go-micro/transport"
+	"xinhari.com/codec"
+	"xinhari.com/transport"
 )
 
 // testCodec is a dummy codec that only knows how to encode nil bodies

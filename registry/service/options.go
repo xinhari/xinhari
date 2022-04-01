@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/ebelanja/go-micro/client"
-	"github.com/ebelanja/go-micro/registry"
+	"xinhari.com/client"
+	"xinhari.com/registry"
 )
 
 type clientKey struct{}

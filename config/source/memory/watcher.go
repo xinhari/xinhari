@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/ebelanja/go-micro/config/source"
+	"xinhari.com/config/source"
 )
 
 type watcher struct {

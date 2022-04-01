@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/ebelanja/go-micro/network/service/proto"
+	pb "xinhari.com/network/service/proto"
 )
 
 var (
