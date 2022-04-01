@@ -1,7 +1,7 @@
 # Go Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/ebelanja/go-micro?tab=doc) [![Travis CI](https://api.travis-ci.org/micro/go-micro.svg?branch=master)](https://travis-ci.org/micro/go-micro) [![Go Report Card](https://goreportcard.com/badge/ebelanja/go-micro)](https://goreportcard.com/report/github.com/ebelanja/go-micro) 
 
-eBelanja Go Micro is a continuation development of Go Micro V2 framework by https://github.com/asim
-# All changes aim to improve and optimize go Micro V2
+Xinhari Framework is a continuation development of Go Micro V2 Framework by https://github.com/asim
+# All changes aim to improve and optimize Go Micro V2
 
 ## Overview
 
