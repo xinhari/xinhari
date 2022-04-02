@@ -12,17 +12,17 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/broker"
-	"xinhari.com/codec"
-	raw "xinhari.com/codec/bytes"
-	"xinhari.com/logger"
-	"xinhari.com/metadata"
-	"xinhari.com/registry"
-	"xinhari.com/transport"
-	"xinhari.com/util/addr"
-	"xinhari.com/util/backoff"
-	mnet "xinhari.com/util/net"
-	"xinhari.com/util/socket"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/codec"
+	raw "xinhari.com/xinhari/codec/bytes"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/metadata"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/transport"
+	"xinhari.com/xinhari/util/addr"
+	"xinhari.com/xinhari/util/backoff"
+	mnet "xinhari.com/xinhari/util/net"
+	"xinhari.com/xinhari/util/socket"
 )
 
 type rpcServer struct {

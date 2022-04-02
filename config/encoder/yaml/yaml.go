@@ -2,7 +2,7 @@ package yaml
 
 import (
 	"github.com/ghodss/yaml"
-	"xinhari.com/config/encoder"
+	"xinhari.com/xinhari/config/encoder"
 )
 
 type yamlEncoder struct{}

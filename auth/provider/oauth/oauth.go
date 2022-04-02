@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"xinhari.com/auth/provider"
+	"xinhari.com/xinhari/auth/provider"
 )
 
 // NewProvider returns an initialised oauth provider

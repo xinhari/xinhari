@@ -2,7 +2,7 @@
 package http
 
 import (
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 // NewTransport returns a new http transport using net/http and supporting http2

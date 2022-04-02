@@ -8,13 +8,13 @@ import (
 	"strings"
 	"sync"
 
-	"xinhari.com/api"
-	"xinhari.com/api/router"
-	"xinhari.com/api/router/util"
-	"xinhari.com/logger"
-	"xinhari.com/metadata"
-	"xinhari.com/registry"
-	rutil "xinhari.com/util/registry"
+	"xinhari.com/xinhari/api"
+	"xinhari.com/xinhari/api/router"
+	"xinhari.com/xinhari/api/router/util"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/metadata"
+	"xinhari.com/xinhari/registry"
+	rutil "xinhari.com/xinhari/util/registry"
 )
 
 type endpoint struct {

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/logger"
 )
 
 // InvalidTemplateError indicates that the path template is not valid.

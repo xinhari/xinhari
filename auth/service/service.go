@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"xinhari.com/auth"
-	"xinhari.com/auth/rules"
-	pb "xinhari.com/auth/service/proto"
-	"xinhari.com/auth/token"
-	"xinhari.com/auth/token/jwt"
-	"xinhari.com/client"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/auth/rules"
+	pb "xinhari.com/xinhari/auth/service/proto"
+	"xinhari.com/xinhari/auth/token"
+	"xinhari.com/xinhari/auth/token/jwt"
+	"xinhari.com/xinhari/client"
 )
 
 // svc is the service implementation of the Auth interface

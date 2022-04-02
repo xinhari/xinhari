@@ -3,7 +3,7 @@ package scope
 import (
 	"fmt"
 
-	"xinhari.com/store"
+	"xinhari.com/xinhari/store"
 )
 
 // Scope extends the store, applying a prefix to each request

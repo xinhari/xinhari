@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	"xinhari.com/auth"
-	"xinhari.com/auth/token"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/auth/token"
 )
 
 // authClaims to be encoded in the JWT

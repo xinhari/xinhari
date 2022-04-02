@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 const (

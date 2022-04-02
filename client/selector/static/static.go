@@ -2,8 +2,8 @@
 package static
 
 import (
-	"xinhari.com/client/selector"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/registry"
 )
 
 // staticSelector is a static selector

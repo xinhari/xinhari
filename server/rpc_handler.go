@@ -3,7 +3,7 @@ package server
 import (
 	"reflect"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 type rpcHandler struct {

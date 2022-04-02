@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/go-git/go-git/v5"
-	"xinhari.com/runtime/local/source"
+	"xinhari.com/xinhari/runtime/local/source"
 )
 
 // Source retrieves source code

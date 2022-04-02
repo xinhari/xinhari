@@ -32,7 +32,7 @@ function check_dir {
 }
 failed_arr=()
 failed=0
-go mod edit -replace xinhari.com=xinhari.com@$1 
+go mod edit -replace xinhari.com/xinhari=xinhari.com/xinhari@$1 
 check_dir . $1
 if [ $failed -gt 0 ]; then
     echo Some builds failed

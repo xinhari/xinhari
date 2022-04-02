@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/client/selector"
+	"xinhari.com/xinhari/client/selector"
 )
 
 // Set the registry cache ttl

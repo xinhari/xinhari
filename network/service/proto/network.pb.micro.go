@@ -6,15 +6,15 @@ package go_micro_network
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	_ "xinhari.com/router/service/proto"
+	_ "xinhari.com/xinhari/router/service/proto"
 	math "math"
 )
 
 import (
 	context "context"
-	api "xinhari.com/api"
-	client "xinhari.com/client"
-	server "xinhari.com/server"
+	api "xinhari.com/xinhari/api"
+	client "xinhari.com/xinhari/client"
+	server "xinhari.com/xinhari/server"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

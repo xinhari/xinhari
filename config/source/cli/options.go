@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/micro/cli/v2"
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 type contextKey struct{}

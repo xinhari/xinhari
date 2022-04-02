@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/metadata"
+	"xinhari.com/xinhari/metadata"
 )
 
 func TestCache(t *testing.T) {

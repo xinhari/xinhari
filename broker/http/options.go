@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"xinhari.com/broker"
+	"xinhari.com/xinhari/broker"
 )
 
 // Handle registers the handler for the given pattern.

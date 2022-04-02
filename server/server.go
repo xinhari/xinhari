@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"xinhari.com/codec"
-	"xinhari.com/logger"
-	"xinhari.com/registry"
-	signalutil "xinhari.com/util/signal"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/registry"
+	signalutil "xinhari.com/xinhari/util/signal"
 )
 
 // Server is a simple micro server abstraction

@@ -2,7 +2,7 @@
 package mucp
 
 import (
-	"xinhari.com/client"
+	"xinhari.com/xinhari/client"
 )
 
 // NewClient returns a new micro client interface

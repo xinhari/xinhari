@@ -11,7 +11,7 @@ import (
 	"time"
 
 	bolt "go.etcd.io/bbolt"
-	"xinhari.com/store"
+	"xinhari.com/xinhari/store"
 )
 
 var (

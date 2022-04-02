@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"xinhari.com/client"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/registry"
 )
 
 type clientKey struct{}

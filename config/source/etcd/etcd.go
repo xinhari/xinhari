@@ -8,7 +8,7 @@ import (
 
 	cetcd "github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 // Currently a single etcd reader

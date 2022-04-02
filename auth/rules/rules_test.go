@@ -3,7 +3,7 @@ package rules
 import (
 	"testing"
 
-	"xinhari.com/auth"
+	"xinhari.com/xinhari/auth"
 )
 
 func TestVerify(t *testing.T) {

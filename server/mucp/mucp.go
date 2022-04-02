@@ -2,7 +2,7 @@
 package mucp
 
 import (
-	"xinhari.com/server"
+	"xinhari.com/xinhari/server"
 )
 
 // NewServer returns a micro server interface

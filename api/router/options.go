@@ -1,9 +1,9 @@
 package router
 
 import (
-	"xinhari.com/api/resolver"
-	"xinhari.com/api/resolver/vpath"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/api/resolver"
+	"xinhari.com/xinhari/api/resolver/vpath"
+	"xinhari.com/xinhari/registry"
 )
 
 type Options struct {

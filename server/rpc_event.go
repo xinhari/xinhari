@@ -1,8 +1,8 @@
 package server
 
 import (
-	"xinhari.com/broker"
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/transport"
 )
 
 // event is a broker event we handle on the server transport

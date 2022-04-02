@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	"github.com/BurntSushi/toml"
-	"xinhari.com/config/encoder"
+	"xinhari.com/xinhari/config/encoder"
 )
 
 type tomlEncoder struct{}

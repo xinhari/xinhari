@@ -1,7 +1,7 @@
 package selector
 
 import (
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 // FilterEndpoint is an endpoint based Select Filter which will

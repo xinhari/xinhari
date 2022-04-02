@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"xinhari.com/store"
+	"xinhari.com/xinhari/store"
 )
 
 type operation struct {

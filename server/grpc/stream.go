@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"google.golang.org/grpc"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/server"
 )
 
 // rpcStream implements a server side Stream.

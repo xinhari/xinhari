@@ -4,16 +4,16 @@ import (
 	"bytes"
 	errs "errors"
 
-	"xinhari.com/codec"
-	raw "xinhari.com/codec/bytes"
-	"xinhari.com/codec/grpc"
-	"xinhari.com/codec/json"
-	"xinhari.com/codec/jsonrpc"
-	"xinhari.com/codec/proto"
-	"xinhari.com/codec/protorpc"
-	"xinhari.com/errors"
-	"xinhari.com/registry"
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/codec"
+	raw "xinhari.com/xinhari/codec/bytes"
+	"xinhari.com/xinhari/codec/grpc"
+	"xinhari.com/xinhari/codec/json"
+	"xinhari.com/xinhari/codec/jsonrpc"
+	"xinhari.com/xinhari/codec/proto"
+	"xinhari.com/xinhari/codec/protorpc"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/transport"
 )
 
 const (

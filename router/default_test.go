@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/registry/memory"
+	"xinhari.com/xinhari/registry/memory"
 )
 
 func routerTestSetup() Router {

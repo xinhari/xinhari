@@ -1,9 +1,9 @@
 package service
 
 import (
-	"xinhari.com/broker"
-	pb "xinhari.com/broker/service/proto"
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/broker"
+	pb "xinhari.com/xinhari/broker/service/proto"
+	"xinhari.com/xinhari/logger"
 )
 
 type serviceSub struct {

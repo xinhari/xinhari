@@ -11,7 +11,7 @@ import (
 
 	client "github.com/coreos/etcd/clientv3"
 	cc "github.com/coreos/etcd/clientv3/concurrency"
-	"xinhari.com/sync"
+	"xinhari.com/xinhari/sync"
 )
 
 type etcdSync struct {

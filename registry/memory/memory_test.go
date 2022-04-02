@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 var (

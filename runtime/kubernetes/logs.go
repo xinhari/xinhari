@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
-	"xinhari.com/runtime"
-	"xinhari.com/util/kubernetes/client"
-	"xinhari.com/util/log"
+	"xinhari.com/xinhari/runtime"
+	"xinhari.com/xinhari/util/kubernetes/client"
+	"xinhari.com/xinhari/util/log"
 )
 
 type klog struct {

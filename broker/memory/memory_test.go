@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"xinhari.com/broker"
+	"xinhari.com/xinhari/broker"
 )
 
 func TestMemoryBroker(t *testing.T) {

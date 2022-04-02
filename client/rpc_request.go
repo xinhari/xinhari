@@ -1,7 +1,7 @@
 package client
 
 import (
-	"xinhari.com/codec"
+	"xinhari.com/xinhari/codec"
 )
 
 type rpcRequest struct {

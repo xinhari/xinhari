@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"xinhari.com/registry"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/server"
 )
 
 type Api interface {

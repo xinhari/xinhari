@@ -4,7 +4,7 @@ package proxy
 import (
 	"context"
 
-	"xinhari.com/server"
+	"xinhari.com/xinhari/server"
 )
 
 // Proxy can be used as a proxy server for go-micro services

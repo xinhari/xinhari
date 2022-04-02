@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"xinhari.com/metadata"
+	"xinhari.com/xinhari/metadata"
 )
 
 func TestRequestToContext(t *testing.T) {

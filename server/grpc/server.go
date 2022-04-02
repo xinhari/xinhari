@@ -14,8 +14,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"xinhari.com/logger"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/server"
 )
 
 var (

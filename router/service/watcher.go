@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/router"
-	pb "xinhari.com/router/service/proto"
+	"xinhari.com/xinhari/router"
+	pb "xinhari.com/xinhari/router/service/proto"
 )
 
 type watcher struct {

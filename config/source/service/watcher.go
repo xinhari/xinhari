@@ -1,8 +1,8 @@
 package service
 
 import (
-	"xinhari.com/config/source"
-	proto "xinhari.com/config/source/service/proto"
+	"xinhari.com/xinhari/config/source"
+	proto "xinhari.com/xinhari/config/source/service/proto"
 )
 
 type watcher struct {

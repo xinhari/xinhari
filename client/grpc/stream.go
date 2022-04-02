@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"google.golang.org/grpc"
-	"xinhari.com/client"
+	"xinhari.com/xinhari/client"
 )
 
 // Implements the streamer interface

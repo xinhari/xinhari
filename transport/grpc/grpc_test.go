@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 func expectedPort(t *testing.T, expected string, lsn transport.Listener) {

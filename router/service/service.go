@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/client"
-	"xinhari.com/router"
-	pb "xinhari.com/router/service/proto"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/router"
+	pb "xinhari.com/xinhari/router/service/proto"
 )
 
 type svc struct {

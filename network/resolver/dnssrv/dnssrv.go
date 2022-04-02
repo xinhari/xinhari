@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"xinhari.com/network/resolver"
+	"xinhari.com/xinhari/network/resolver"
 )
 
 // Resolver is a DNS network resolve

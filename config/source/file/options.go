@@ -3,7 +3,7 @@ package file
 import (
 	"context"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 type filePathKey struct{}

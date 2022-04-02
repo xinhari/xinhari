@@ -19,13 +19,13 @@ import (
 
 	"github.com/google/uuid"
 	"golang.org/x/net/http2"
-	"xinhari.com/codec/json"
-	merr "xinhari.com/errors"
-	"xinhari.com/registry"
-	"xinhari.com/registry/cache"
-	maddr "xinhari.com/util/addr"
-	mnet "xinhari.com/util/net"
-	mls "xinhari.com/util/tls"
+	"xinhari.com/xinhari/codec/json"
+	merr "xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/registry/cache"
+	maddr "xinhari.com/xinhari/util/addr"
+	mnet "xinhari.com/xinhari/util/net"
+	mls "xinhari.com/xinhari/util/tls"
 )
 
 // HTTP Broker is a point to point async broker

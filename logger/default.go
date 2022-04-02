@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	dlog "xinhari.com/debug/log"
+	dlog "xinhari.com/xinhari/debug/log"
 )
 
 func init() {

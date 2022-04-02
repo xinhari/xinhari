@@ -9,8 +9,8 @@ import (
 	"log"
 	"os"
 
-	"xinhari.com/client"
-	proto "xinhari.com/util/file/proto"
+	"xinhari.com/xinhari/client"
+	proto "xinhari.com/xinhari/util/file/proto"
 )
 
 // Client is the client interface to access files

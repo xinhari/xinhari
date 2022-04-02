@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"xinhari.com/client"
-	"xinhari.com/runtime"
-	pb "xinhari.com/runtime/service/proto"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/runtime"
+	pb "xinhari.com/xinhari/runtime/service/proto"
 )
 
 type svc struct {

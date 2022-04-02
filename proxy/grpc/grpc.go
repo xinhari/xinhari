@@ -6,11 +6,11 @@ import (
 	"io"
 	"strings"
 
-	"xinhari.com/client"
-	"xinhari.com/client/grpc"
-	"xinhari.com/codec"
-	"xinhari.com/proxy"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/client/grpc"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/proxy"
+	"xinhari.com/xinhari/server"
 )
 
 // Proxy will transparently proxy requests to the backend.

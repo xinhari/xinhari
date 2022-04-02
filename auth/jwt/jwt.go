@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/auth"
-	"xinhari.com/auth/rules"
-	"xinhari.com/auth/token"
-	jwtToken "xinhari.com/auth/token/jwt"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/auth/rules"
+	"xinhari.com/xinhari/auth/token"
+	jwtToken "xinhari.com/xinhari/auth/token/jwt"
 )
 
 // NewAuth returns a new instance of the Auth service

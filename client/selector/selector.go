@@ -4,7 +4,7 @@ package selector
 import (
 	"errors"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 // Selector builds on the registry as a mechanism to pick nodes

@@ -3,7 +3,7 @@ package selector
 import (
 	"testing"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 func TestFilterEndpoint(t *testing.T) {

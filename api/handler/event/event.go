@@ -12,9 +12,9 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/oxtoacart/bpool"
-	"xinhari.com/api/handler"
-	proto "xinhari.com/api/proto"
-	"xinhari.com/util/ctx"
+	"xinhari.com/xinhari/api/handler"
+	proto "xinhari.com/xinhari/api/proto"
+	"xinhari.com/xinhari/util/ctx"
 )
 
 var (

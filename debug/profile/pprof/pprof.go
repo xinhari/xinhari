@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/debug/profile"
+	"xinhari.com/xinhari/debug/profile"
 )
 
 type profiler struct {

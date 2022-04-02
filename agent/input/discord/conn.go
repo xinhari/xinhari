@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	"github.com/bwmarrin/discordgo"
-	"xinhari.com/agent/input"
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/agent/input"
+	"xinhari.com/xinhari/logger"
 )
 
 type discordConn struct {

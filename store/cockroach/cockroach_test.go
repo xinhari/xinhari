@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/kr/pretty"
-	"xinhari.com/store"
+	"xinhari.com/xinhari/store"
 )
 
 func TestSQL(t *testing.T) {

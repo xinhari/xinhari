@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 func addNodes(old, neu []*registry.Node) []*registry.Node {

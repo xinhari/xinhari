@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/caddyserver/certmagic"
-	"xinhari.com/api/server/acme"
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/api/server/acme"
+	"xinhari.com/xinhari/logger"
 )
 
 type certmagicProvider struct {

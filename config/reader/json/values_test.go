@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 func TestValues(t *testing.T) {

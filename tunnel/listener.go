@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/logger"
 )
 
 type tunListener struct {

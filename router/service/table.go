@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"xinhari.com/client"
-	"xinhari.com/router"
-	pb "xinhari.com/router/service/proto"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/router"
+	pb "xinhari.com/xinhari/router/service/proto"
 )
 
 type table struct {

@@ -3,7 +3,7 @@ package sync
 import (
 	"time"
 
-	"xinhari.com/store"
+	"xinhari.com/xinhari/store"
 )
 
 // Options represents Sync options

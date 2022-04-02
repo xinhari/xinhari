@@ -2,7 +2,7 @@ package nats
 
 import (
 	nats "github.com/nats-io/nats.go"
-	"xinhari.com/broker"
+	"xinhari.com/xinhari/broker"
 )
 
 type optionsKey struct{}

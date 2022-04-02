@@ -7,8 +7,8 @@ import (
 
 	"github.com/forestgiant/sliceutil"
 	tgbotapi "gopkg.in/telegram-bot-api.v4"
-	"xinhari.com/agent/input"
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/agent/input"
+	"xinhari.com/xinhari/logger"
 )
 
 type telegramConn struct {

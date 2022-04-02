@@ -9,7 +9,7 @@ import (
 
 	"github.com/patrickmn/go-cache"
 	"github.com/pkg/errors"
-	"xinhari.com/store"
+	"xinhari.com/xinhari/store"
 )
 
 // NewStore returns a memory store

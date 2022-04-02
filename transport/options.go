@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"time"
 
-	"xinhari.com/codec"
+	"xinhari.com/xinhari/codec"
 )
 
 type Options struct {

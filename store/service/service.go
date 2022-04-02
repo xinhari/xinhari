@@ -8,11 +8,11 @@ import (
 	"reflect"
 	"time"
 
-	"xinhari.com/client"
-	"xinhari.com/errors"
-	"xinhari.com/metadata"
-	"xinhari.com/store"
-	pb "xinhari.com/store/service/proto"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/metadata"
+	"xinhari.com/xinhari/store"
+	pb "xinhari.com/xinhari/store/service/proto"
 )
 
 type serviceStore struct {

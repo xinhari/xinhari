@@ -1,7 +1,7 @@
 package noop
 
 import (
-	"xinhari.com/debug/log"
+	"xinhari.com/xinhari/debug/log"
 )
 
 type noop struct{}

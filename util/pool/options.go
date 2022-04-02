@@ -3,7 +3,7 @@ package pool
 import (
 	"time"
 
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 type Options struct {

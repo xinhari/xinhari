@@ -13,16 +13,16 @@ import (
 	"time"
 
 	"github.com/micro/cli/v2"
-	micro "xinhari.com"
-	"xinhari.com/logger"
-	"xinhari.com/registry"
-	maddr "xinhari.com/util/addr"
-	authutil "xinhari.com/util/auth"
-	"xinhari.com/util/backoff"
-	mhttp "xinhari.com/util/http"
-	mnet "xinhari.com/util/net"
-	signalutil "xinhari.com/util/signal"
-	mls "xinhari.com/util/tls"
+	micro "xinhari.com/xinhari"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/registry"
+	maddr "xinhari.com/xinhari/util/addr"
+	authutil "xinhari.com/xinhari/util/auth"
+	"xinhari.com/xinhari/util/backoff"
+	mhttp "xinhari.com/xinhari/util/http"
+	mnet "xinhari.com/xinhari/util/net"
+	signalutil "xinhari.com/xinhari/util/signal"
+	mls "xinhari.com/xinhari/util/tls"
 )
 
 type service struct {

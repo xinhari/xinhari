@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/coreos/etcd/clientv3"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 type etcdWatcher struct {

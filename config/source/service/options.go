@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 type serviceNameKey struct{}

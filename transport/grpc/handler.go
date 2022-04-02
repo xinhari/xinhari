@@ -4,10 +4,10 @@ import (
 	"runtime/debug"
 
 	"google.golang.org/grpc/peer"
-	"xinhari.com/errors"
-	"xinhari.com/logger"
-	"xinhari.com/transport"
-	pb "xinhari.com/transport/grpc/proto"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/transport"
+	pb "xinhari.com/xinhari/transport/grpc/proto"
 )
 
 // microTransport satisfies the pb.TransportServer inteface

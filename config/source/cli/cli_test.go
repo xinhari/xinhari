@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/micro/cli/v2"
-	micro "xinhari.com"
-	"xinhari.com/config"
-	"xinhari.com/config/cmd"
-	"xinhari.com/config/source"
+	micro "xinhari.com/xinhari"
+	"xinhari.com/xinhari/config"
+	"xinhari.com/xinhari/config/cmd"
+	"xinhari.com/xinhari/config/source"
 )
 
 func TestCliSourceDefault(t *testing.T) {

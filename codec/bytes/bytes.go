@@ -6,7 +6,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"xinhari.com/codec"
+	"xinhari.com/xinhari/codec"
 )
 
 type Codec struct {

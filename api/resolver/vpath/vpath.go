@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"xinhari.com/api/resolver"
+	"xinhari.com/xinhari/api/resolver"
 )
 
 func NewResolver(opts ...resolver.Option) resolver.Resolver {

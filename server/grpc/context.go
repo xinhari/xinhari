@@ -3,7 +3,7 @@ package grpc
 import (
 	"context"
 
-	"xinhari.com/server"
+	"xinhari.com/xinhari/server"
 )
 
 func setServerOption(k, v interface{}) server.Option {

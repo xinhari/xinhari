@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"xinhari.com/auth"
+	"xinhari.com/xinhari/auth"
 )
 
 var (

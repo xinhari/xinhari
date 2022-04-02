@@ -7,7 +7,7 @@ import (
 	"net/http/pprof"
 	"sync"
 
-	"xinhari.com/debug/profile"
+	"xinhari.com/xinhari/debug/profile"
 )
 
 type httpProfile struct {

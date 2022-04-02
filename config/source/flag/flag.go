@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/imdario/mergo"
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 type flagsrc struct {

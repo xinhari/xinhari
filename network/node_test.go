@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	pb "xinhari.com/network/service/proto"
+	pb "xinhari.com/xinhari/network/service/proto"
 )
 
 var (

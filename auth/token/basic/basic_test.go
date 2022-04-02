@@ -3,9 +3,9 @@ package basic
 import (
 	"testing"
 
-	"xinhari.com/auth"
-	"xinhari.com/auth/token"
-	"xinhari.com/store/memory"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/auth/token"
+	"xinhari.com/xinhari/store/memory"
 )
 
 func TestGenerate(t *testing.T) {

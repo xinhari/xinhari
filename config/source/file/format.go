@@ -3,7 +3,7 @@ package file
 import (
 	"strings"
 
-	"xinhari.com/config/encoder"
+	"xinhari.com/xinhari/config/encoder"
 )
 
 func format(p string, e encoder.Encoder) string {

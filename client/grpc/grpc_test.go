@@ -7,11 +7,11 @@ import (
 
 	pgrpc "google.golang.org/grpc"
 	pb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"xinhari.com/client"
-	"xinhari.com/client/selector"
-	"xinhari.com/errors"
-	"xinhari.com/registry"
-	"xinhari.com/registry/memory"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/registry/memory"
 )
 
 // server is used to implement helloworld.GreeterServer.

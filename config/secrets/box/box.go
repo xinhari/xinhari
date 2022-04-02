@@ -4,7 +4,7 @@ package box
 import (
 	"github.com/pkg/errors"
 	naclbox "golang.org/x/crypto/nacl/box"
-	"xinhari.com/config/secrets"
+	"xinhari.com/xinhari/config/secrets"
 
 	"crypto/rand"
 )

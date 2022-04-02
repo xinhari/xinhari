@@ -9,7 +9,7 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"xinhari.com/codec"
+	"xinhari.com/xinhari/codec"
 )
 
 type flusher interface {

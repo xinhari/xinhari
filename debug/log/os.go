@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/google/uuid"
-	"xinhari.com/util/ring"
+	"xinhari.com/xinhari/util/ring"
 )
 
 // Should stream from OS

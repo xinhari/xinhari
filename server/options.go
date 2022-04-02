@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/auth"
-	"xinhari.com/broker"
-	"xinhari.com/codec"
-	"xinhari.com/debug/trace"
-	"xinhari.com/registry"
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/debug/trace"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/transport"
 )
 
 type Options struct {

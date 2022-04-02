@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"xinhari.com/codec"
+	"xinhari.com/xinhari/codec"
 )
 
 type jsonCodec struct {

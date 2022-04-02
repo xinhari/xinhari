@@ -3,8 +3,8 @@ package service
 import (
 	"time"
 
-	"xinhari.com/debug"
-	"xinhari.com/debug/log"
+	"xinhari.com/xinhari/debug"
+	"xinhari.com/xinhari/debug/log"
 )
 
 type serviceLog struct {

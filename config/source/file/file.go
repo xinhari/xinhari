@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 type file struct {

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 func TestEnv_Read(t *testing.T) {

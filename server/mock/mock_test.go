@@ -3,7 +3,7 @@ package mock
 import (
 	"testing"
 
-	"xinhari.com/server"
+	"xinhari.com/xinhari/server"
 )
 
 func TestMockServer(t *testing.T) {

@@ -3,8 +3,8 @@ package selector
 import (
 	"time"
 
-	"xinhari.com/registry"
-	"xinhari.com/registry/cache"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/registry/cache"
 )
 
 type registrySelector struct {

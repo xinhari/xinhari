@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/logger"
 )
 
 func TestTokenize(t *testing.T) {

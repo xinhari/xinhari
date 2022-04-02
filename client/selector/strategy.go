@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 func init() {

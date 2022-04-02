@@ -1,7 +1,7 @@
 package http
 
 import (
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 type Options struct {

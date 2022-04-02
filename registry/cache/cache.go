@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/logger"
-	"xinhari.com/registry"
-	util "xinhari.com/util/registry"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/registry"
+	util "xinhari.com/xinhari/util/registry"
 )
 
 // Cache is the registry cache interface

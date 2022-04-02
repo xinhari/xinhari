@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 func TestReader(t *testing.T) {

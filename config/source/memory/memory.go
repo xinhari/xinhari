@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 type memory struct {

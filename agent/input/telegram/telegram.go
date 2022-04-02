@@ -7,7 +7,7 @@ import (
 
 	"github.com/micro/cli/v2"
 	tgbotapi "gopkg.in/telegram-bot-api.v4"
-	"xinhari.com/agent/input"
+	"xinhari.com/xinhari/agent/input"
 )
 
 type telegramInput struct {

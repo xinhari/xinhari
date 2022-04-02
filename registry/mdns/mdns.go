@@ -4,7 +4,7 @@ package mdns
 import (
 	"context"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 // NewRegistry returns a new mdns registry

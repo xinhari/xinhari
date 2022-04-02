@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/registry/memory"
-	"xinhari.com/service"
-	hello "xinhari.com/service/grpc/proto"
-	mls "xinhari.com/util/tls"
+	"xinhari.com/xinhari/registry/memory"
+	"xinhari.com/xinhari/service"
+	hello "xinhari.com/xinhari/service/grpc/proto"
+	mls "xinhari.com/xinhari/util/tls"
 )
 
 type testHandler struct{}

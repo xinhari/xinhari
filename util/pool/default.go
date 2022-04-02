@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 type pool struct {

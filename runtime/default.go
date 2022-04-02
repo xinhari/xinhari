@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/hpcloud/tail"
-	"xinhari.com/logger"
-	"xinhari.com/runtime/local/git"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/runtime/local/git"
 )
 
 // defaultNamespace to use if not provided as an option

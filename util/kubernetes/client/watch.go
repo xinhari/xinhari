@@ -7,7 +7,7 @@ import (
 	"errors"
 	"net/http"
 
-	"xinhari.com/util/kubernetes/api"
+	"xinhari.com/xinhari/util/kubernetes/api"
 )
 
 const (

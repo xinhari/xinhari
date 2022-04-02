@@ -2,12 +2,12 @@ package network
 
 import (
 	"github.com/google/uuid"
-	"xinhari.com/network/resolver"
-	"xinhari.com/network/resolver/registry"
-	"xinhari.com/proxy"
-	"xinhari.com/proxy/mucp"
-	"xinhari.com/router"
-	"xinhari.com/tunnel"
+	"xinhari.com/xinhari/network/resolver"
+	"xinhari.com/xinhari/network/resolver/registry"
+	"xinhari.com/xinhari/proxy"
+	"xinhari.com/xinhari/proxy/mucp"
+	"xinhari.com/xinhari/router"
+	"xinhari.com/xinhari/tunnel"
 )
 
 type Option func(*Options)

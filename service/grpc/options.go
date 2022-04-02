@@ -3,9 +3,9 @@ package grpc
 import (
 	"crypto/tls"
 
-	gc "xinhari.com/client/grpc"
-	gs "xinhari.com/server/grpc"
-	"xinhari.com/service"
+	gc "xinhari.com/xinhari/client/grpc"
+	gs "xinhari.com/xinhari/server/grpc"
+	"xinhari.com/xinhari/service"
 )
 
 // WithTLS sets the TLS config for the service

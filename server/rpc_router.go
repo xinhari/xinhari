@@ -18,8 +18,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"xinhari.com/codec"
-	merrors "xinhari.com/errors"
+	"xinhari.com/xinhari/codec"
+	merrors "xinhari.com/xinhari/errors"
 )
 
 var (

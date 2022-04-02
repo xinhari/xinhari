@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"google.golang.org/grpc/codes"
-	"xinhari.com/errors"
+	"xinhari.com/xinhari/errors"
 )
 
 func microError(err *errors.Error) codes.Code {

@@ -5,11 +5,11 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/client"
-	"xinhari.com/client/grpc"
-	"xinhari.com/errors"
-	"xinhari.com/registry"
-	pb "xinhari.com/registry/service/proto"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/client/grpc"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/registry"
+	pb "xinhari.com/xinhari/registry/service/proto"
 )
 
 var (

@@ -6,13 +6,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"xinhari.com/api/handler"
-	"xinhari.com/api/resolver"
-	"xinhari.com/api/resolver/vpath"
-	"xinhari.com/api/router"
-	regRouter "xinhari.com/api/router/registry"
-	"xinhari.com/registry"
-	"xinhari.com/registry/memory"
+	"xinhari.com/xinhari/api/handler"
+	"xinhari.com/xinhari/api/resolver"
+	"xinhari.com/xinhari/api/resolver/vpath"
+	"xinhari.com/xinhari/api/router"
+	regRouter "xinhari.com/xinhari/api/router/registry"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/registry/memory"
 )
 
 func testHttp(t *testing.T, path, service, ns string) {

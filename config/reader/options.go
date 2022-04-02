@@ -1,12 +1,12 @@
 package reader
 
 import (
-	"xinhari.com/config/encoder"
-	"xinhari.com/config/encoder/hcl"
-	"xinhari.com/config/encoder/json"
-	"xinhari.com/config/encoder/toml"
-	"xinhari.com/config/encoder/xml"
-	"xinhari.com/config/encoder/yaml"
+	"xinhari.com/xinhari/config/encoder"
+	"xinhari.com/xinhari/config/encoder/hcl"
+	"xinhari.com/xinhari/config/encoder/json"
+	"xinhari.com/xinhari/config/encoder/toml"
+	"xinhari.com/xinhari/config/encoder/xml"
+	"xinhari.com/xinhari/config/encoder/yaml"
 )
 
 type Options struct {

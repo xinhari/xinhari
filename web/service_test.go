@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/registry"
-	"xinhari.com/registry/memory"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/registry/memory"
 )
 
 func TestService(t *testing.T) {

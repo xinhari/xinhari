@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"xinhari.com/client"
+	"xinhari.com/xinhari/client"
 )
 
 type Option func(o *Options)

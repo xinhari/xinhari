@@ -9,9 +9,9 @@ import (
 	"sync"
 
 	"github.com/gorilla/handlers"
-	"xinhari.com/api/server"
-	"xinhari.com/api/server/cors"
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/api/server"
+	"xinhari.com/xinhari/api/server/cors"
+	"xinhari.com/xinhari/logger"
 )
 
 type httpServer struct {

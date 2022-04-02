@@ -1,9 +1,9 @@
 package memory
 
 import (
-	"xinhari.com/config/loader"
-	"xinhari.com/config/reader"
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/loader"
+	"xinhari.com/xinhari/config/reader"
+	"xinhari.com/xinhari/config/source"
 )
 
 // WithSource appends a source to list of sources

@@ -4,7 +4,7 @@ package router
 import (
 	"net/http"
 
-	"xinhari.com/api"
+	"xinhari.com/xinhari/api"
 )
 
 // Router is used to determine an endpoint for a request

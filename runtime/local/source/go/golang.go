@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"xinhari.com/runtime/local/source"
+	"xinhari.com/xinhari/runtime/local/source"
 )
 
 type Source struct {

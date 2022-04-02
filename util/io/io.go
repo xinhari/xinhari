@@ -4,7 +4,7 @@ package io
 import (
 	"io"
 
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 type rwc struct {

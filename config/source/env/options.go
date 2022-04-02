@@ -5,7 +5,7 @@ import (
 
 	"strings"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 type strippedPrefixKey struct{}

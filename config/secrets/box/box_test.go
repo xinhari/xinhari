@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	naclbox "golang.org/x/crypto/nacl/box"
-	"xinhari.com/config/secrets"
+	"xinhari.com/xinhari/config/secrets"
 )
 
 func TestBox(t *testing.T) {

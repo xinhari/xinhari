@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"xinhari.com/broker"
-	"xinhari.com/logger"
-	maddr "xinhari.com/util/addr"
-	mnet "xinhari.com/util/net"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/logger"
+	maddr "xinhari.com/xinhari/util/addr"
+	mnet "xinhari.com/xinhari/util/net"
 )
 
 type memoryBroker struct {

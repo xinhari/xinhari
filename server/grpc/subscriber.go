@@ -7,12 +7,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"xinhari.com/broker"
-	"xinhari.com/errors"
-	"xinhari.com/logger"
-	"xinhari.com/metadata"
-	"xinhari.com/registry"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/metadata"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/server"
 )
 
 const (

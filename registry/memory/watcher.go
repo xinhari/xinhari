@@ -3,7 +3,7 @@ package memory
 import (
 	"errors"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 type Watcher struct {

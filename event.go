@@ -3,7 +3,7 @@ package micro
 import (
 	"context"
 
-	"xinhari.com/client"
+	"xinhari.com/xinhari/client"
 )
 
 type event struct {

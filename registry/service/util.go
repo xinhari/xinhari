@@ -1,8 +1,8 @@
 package service
 
 import (
-	"xinhari.com/registry"
-	pb "xinhari.com/registry/service/proto"
+	"xinhari.com/xinhari/registry"
+	pb "xinhari.com/xinhari/registry/service/proto"
 )
 
 func values(v []*registry.Value) []*pb.Value {

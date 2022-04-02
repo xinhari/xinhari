@@ -8,8 +8,8 @@ import (
 	"os"
 
 	"golang.org/x/crypto/acme/autocert"
-	"xinhari.com/api/server/acme"
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/api/server/acme"
+	"xinhari.com/xinhari/logger"
 )
 
 // autoCertACME is the ACME provider from golang.org/x/crypto/acme/autocert

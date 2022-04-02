@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/logger"
 )
 
 var (

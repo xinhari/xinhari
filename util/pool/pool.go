@@ -4,7 +4,7 @@ package pool
 import (
 	"time"
 
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 // Pool is an interface for connection pooling

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/auth"
-	"xinhari.com/auth/token"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/auth/token"
 )
 
 func TestGenerate(t *testing.T) {

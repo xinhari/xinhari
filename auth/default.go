@@ -2,7 +2,7 @@ package auth
 
 import (
 	"github.com/google/uuid"
-	"xinhari.com/auth/provider/basic"
+	"xinhari.com/xinhari/auth/provider/basic"
 )
 
 var (

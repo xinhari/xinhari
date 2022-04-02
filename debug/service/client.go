@@ -5,9 +5,9 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/client"
-	"xinhari.com/debug/log"
-	pb "xinhari.com/debug/service/proto"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/debug/log"
+	pb "xinhari.com/xinhari/debug/service/proto"
 )
 
 // Debug provides debug service client

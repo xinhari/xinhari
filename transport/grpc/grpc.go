@@ -6,15 +6,15 @@ import (
 	"crypto/tls"
 	"net"
 
-	"xinhari.com/transport"
-	maddr "xinhari.com/util/addr"
-	mnet "xinhari.com/util/net"
-	mls "xinhari.com/util/tls"
+	"xinhari.com/xinhari/transport"
+	maddr "xinhari.com/xinhari/util/addr"
+	mnet "xinhari.com/xinhari/util/net"
+	mls "xinhari.com/xinhari/util/tls"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	pb "xinhari.com/transport/grpc/proto"
+	pb "xinhari.com/xinhari/transport/grpc/proto"
 )
 
 type grpcTransport struct {

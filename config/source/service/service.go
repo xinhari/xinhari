@@ -4,11 +4,11 @@ import (
 	"context"
 	"net/http"
 
-	"xinhari.com/client"
-	"xinhari.com/config/source"
-	proto "xinhari.com/config/source/service/proto"
-	"xinhari.com/errors"
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/config/source"
+	proto "xinhari.com/xinhari/config/source/service/proto"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/logger"
 )
 
 var (

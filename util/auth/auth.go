@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"xinhari.com/auth"
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/logger"
 )
 
 // Generate generates a service account for and continually

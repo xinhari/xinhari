@@ -4,7 +4,7 @@ package socket
 import (
 	"io"
 
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 // Socket is our pseudo socket for transport.Socket

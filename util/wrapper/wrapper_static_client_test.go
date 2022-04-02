@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"xinhari.com/broker"
-	bmemory "xinhari.com/broker/memory"
-	"xinhari.com/client"
-	rmemory "xinhari.com/registry/memory"
-	"xinhari.com/server"
-	tmemory "xinhari.com/transport/memory"
-	wrapper "xinhari.com/util/wrapper"
+	"xinhari.com/xinhari/broker"
+	bmemory "xinhari.com/xinhari/broker/memory"
+	"xinhari.com/xinhari/client"
+	rmemory "xinhari.com/xinhari/registry/memory"
+	"xinhari.com/xinhari/server"
+	tmemory "xinhari.com/xinhari/transport/memory"
+	wrapper "xinhari.com/xinhari/util/wrapper"
 )
 
 type TestFoo struct {

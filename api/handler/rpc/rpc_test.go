@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	go_api "xinhari.com/api/proto"
+	go_api "xinhari.com/xinhari/api/proto"
 )
 
 func TestRequestPayloadFromRequest(t *testing.T) {

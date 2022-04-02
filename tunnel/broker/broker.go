@@ -4,9 +4,9 @@ package broker
 import (
 	"context"
 
-	"xinhari.com/broker"
-	"xinhari.com/transport"
-	"xinhari.com/tunnel"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/transport"
+	"xinhari.com/xinhari/tunnel"
 )
 
 type tunBroker struct {

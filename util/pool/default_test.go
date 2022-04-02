@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/transport"
-	"xinhari.com/transport/memory"
+	"xinhari.com/xinhari/transport"
+	"xinhari.com/xinhari/transport/memory"
 )
 
 func testPool(t *testing.T, size int, ttl time.Duration) {

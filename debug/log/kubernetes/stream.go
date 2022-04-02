@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"xinhari.com/debug/log"
+	"xinhari.com/xinhari/debug/log"
 )
 
 func write(l log.Record) error {

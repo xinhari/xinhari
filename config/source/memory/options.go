@@ -3,7 +3,7 @@ package memory
 import (
 	"context"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 type changeSetKey struct{}

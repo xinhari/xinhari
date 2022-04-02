@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"xinhari.com/metadata"
+	"xinhari.com/xinhari/metadata"
 )
 
 func FromRequest(r *http.Request) context.Context {

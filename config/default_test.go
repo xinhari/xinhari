@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/config/source"
-	"xinhari.com/config/source/env"
-	"xinhari.com/config/source/file"
-	"xinhari.com/config/source/memory"
+	"xinhari.com/xinhari/config/source"
+	"xinhari.com/xinhari/config/source/env"
+	"xinhari.com/xinhari/config/source/file"
+	"xinhari.com/xinhari/config/source/memory"
 )
 
 func createFileForIssue18(t *testing.T, content string) *os.File {

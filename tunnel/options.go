@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"xinhari.com/logger"
-	"xinhari.com/transport"
-	"xinhari.com/transport/quic"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/transport"
+	"xinhari.com/xinhari/transport/quic"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/oxtoacart/bpool"
-	"xinhari.com/codec"
+	"xinhari.com/xinhari/codec"
 )
 
 // create buffer pool with 16 instances each preallocated with 256 bytes

@@ -5,7 +5,7 @@ var (
 package main
 
 import (
-	"xinhari.com/plugin"
+	"xinhari.com/xinhari/plugin"
 
 	"{{.Path}}"
 )

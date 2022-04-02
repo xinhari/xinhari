@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"xinhari.com/codec"
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/transport"
 )
 
 // testCodec is a dummy codec that only knows how to encode nil bodies

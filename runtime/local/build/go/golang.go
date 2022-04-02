@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"xinhari.com/runtime/local/build"
+	"xinhari.com/xinhari/runtime/local/build"
 )
 
 type Builder struct {

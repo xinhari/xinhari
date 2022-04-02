@@ -4,13 +4,13 @@ package api
 import (
 	"net/http"
 
-	goapi "xinhari.com/api"
-	"xinhari.com/api/handler"
-	api "xinhari.com/api/proto"
-	"xinhari.com/client"
-	"xinhari.com/client/selector"
-	"xinhari.com/errors"
-	"xinhari.com/util/ctx"
+	goapi "xinhari.com/xinhari/api"
+	"xinhari.com/xinhari/api/handler"
+	api "xinhari.com/xinhari/api/proto"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/util/ctx"
 )
 
 type apiHandler struct {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/micro/cli/v2"
 	"github.com/nlopes/slack"
-	"xinhari.com/agent/input"
+	"xinhari.com/xinhari/agent/input"
 )
 
 type slackInput struct {

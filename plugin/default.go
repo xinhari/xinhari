@@ -11,13 +11,13 @@ import (
 	"strings"
 	"text/template"
 
-	"xinhari.com/broker"
-	"xinhari.com/client"
-	"xinhari.com/client/selector"
-	"xinhari.com/config/cmd"
-	"xinhari.com/registry"
-	"xinhari.com/server"
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/config/cmd"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/server"
+	"xinhari.com/xinhari/transport"
 )
 
 type plugin struct{}

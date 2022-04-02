@@ -8,10 +8,10 @@ import (
 	"sync"
 	"testing"
 
-	micro "xinhari.com"
-	"xinhari.com/client"
-	"xinhari.com/registry/memory"
-	"xinhari.com/server"
+	micro "xinhari.com/xinhari"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/registry/memory"
+	"xinhari.com/xinhari/server"
 )
 
 type testHandler struct{}

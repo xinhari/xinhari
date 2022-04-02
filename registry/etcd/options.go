@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"go.uber.org/zap"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 type authKey struct{}

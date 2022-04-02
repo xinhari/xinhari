@@ -2,8 +2,8 @@
 package registry
 
 import (
-	"xinhari.com/network/resolver"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/network/resolver"
+	"xinhari.com/xinhari/registry"
 )
 
 // Resolver is a registry network resolver

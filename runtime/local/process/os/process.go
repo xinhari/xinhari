@@ -2,7 +2,7 @@
 package os
 
 import (
-	"xinhari.com/runtime/local/process"
+	"xinhari.com/xinhari/runtime/local/process"
 )
 
 type Process struct{}

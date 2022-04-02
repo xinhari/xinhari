@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 func TestMemoryTransport(t *testing.T) {

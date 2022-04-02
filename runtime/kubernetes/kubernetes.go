@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	log "xinhari.com/logger"
-	"xinhari.com/runtime"
-	"xinhari.com/util/kubernetes/client"
+	log "xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/runtime"
+	"xinhari.com/xinhari/util/kubernetes/client"
 )
 
 // action to take on runtime service

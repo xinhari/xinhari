@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"xinhari.com/auth"
-	"xinhari.com/auth/token"
-	"xinhari.com/store"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/auth/token"
+	"xinhari.com/xinhari/store"
 )
 
 // Basic implementation of token provider, backed by the store

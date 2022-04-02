@@ -6,10 +6,10 @@ import (
 	"sync"
 	"testing"
 
-	"xinhari.com/client"
-	proto "xinhari.com/debug/service/proto"
-	"xinhari.com/registry/memory"
-	"xinhari.com/util/test"
+	"xinhari.com/xinhari/client"
+	proto "xinhari.com/xinhari/debug/service/proto"
+	"xinhari.com/xinhari/registry/memory"
+	"xinhari.com/xinhari/util/test"
 )
 
 func testShutdown(wg *sync.WaitGroup, cancel func()) {

@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"xinhari.com/store"
-	"xinhari.com/store/memory"
+	"xinhari.com/xinhari/store"
+	"xinhari.com/xinhari/store/memory"
 )
 
 type cache struct {

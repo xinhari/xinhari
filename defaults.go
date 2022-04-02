@@ -1,16 +1,16 @@
 package micro
 
 import (
-	"xinhari.com/client"
-	"xinhari.com/debug/trace"
-	"xinhari.com/server"
-	"xinhari.com/store"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/debug/trace"
+	"xinhari.com/xinhari/server"
+	"xinhari.com/xinhari/store"
 
 	// set defaults
-	gcli "xinhari.com/client/grpc"
-	memTrace "xinhari.com/debug/trace/memory"
-	gsrv "xinhari.com/server/grpc"
-	memoryStore "xinhari.com/store/memory"
+	gcli "xinhari.com/xinhari/client/grpc"
+	memTrace "xinhari.com/xinhari/debug/trace/memory"
+	gsrv "xinhari.com/xinhari/server/grpc"
+	memoryStore "xinhari.com/xinhari/store/memory"
 )
 
 func init() {

@@ -8,8 +8,8 @@ import (
 	"time"
 
 	quic "github.com/lucas-clemente/quic-go"
-	"xinhari.com/transport"
-	utls "xinhari.com/util/tls"
+	"xinhari.com/xinhari/transport"
+	utls "xinhari.com/xinhari/util/tls"
 )
 
 type quicSocket struct {

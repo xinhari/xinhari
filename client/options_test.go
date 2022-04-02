@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 func TestCallOptions(t *testing.T) {

@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"xinhari.com/logger"
-	"xinhari.com/util/mdns"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/util/mdns"
 )
 
 var (

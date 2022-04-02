@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"xinhari.com/runtime/local/process"
+	"xinhari.com/xinhari/runtime/local/process"
 )
 
 func (p *Process) Exec(exe *process.Executable) error {

@@ -4,8 +4,8 @@ package network
 import (
 	"time"
 
-	"xinhari.com/client"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/server"
 )
 
 var (

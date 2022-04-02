@@ -1,7 +1,7 @@
 package bytes
 
 import (
-	"xinhari.com/codec"
+	"xinhari.com/xinhari/codec"
 )
 
 type Marshaler struct{}

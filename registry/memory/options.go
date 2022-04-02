@@ -3,7 +3,7 @@ package memory
 import (
 	"context"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 type servicesKey struct{}

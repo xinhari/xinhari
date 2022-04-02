@@ -2,11 +2,11 @@
 package mucp
 
 import (
-	"xinhari.com/client"
-	cmucp "xinhari.com/client/mucp"
-	"xinhari.com/server"
-	smucp "xinhari.com/server/mucp"
-	"xinhari.com/service"
+	"xinhari.com/xinhari/client"
+	cmucp "xinhari.com/xinhari/client/mucp"
+	"xinhari.com/xinhari/server"
+	smucp "xinhari.com/xinhari/server/mucp"
+	"xinhari.com/xinhari/service"
 )
 
 type mucpService struct {

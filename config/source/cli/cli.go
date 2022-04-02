@@ -9,8 +9,8 @@ import (
 
 	"github.com/imdario/mergo"
 	"github.com/micro/cli/v2"
-	"xinhari.com/config/cmd"
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/cmd"
+	"xinhari.com/xinhari/config/source"
 )
 
 type cliSource struct {

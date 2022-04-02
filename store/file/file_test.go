@@ -10,7 +10,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/kr/pretty"
-	"xinhari.com/store"
+	"xinhari.com/xinhari/store"
 )
 
 func cleanup(db string, s store.Store) {

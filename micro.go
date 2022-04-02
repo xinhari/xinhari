@@ -4,8 +4,8 @@ package micro
 import (
 	"context"
 
-	"xinhari.com/client"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/server"
 )
 
 type serviceKey struct{}

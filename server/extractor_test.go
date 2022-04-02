@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 type testHandler struct{}

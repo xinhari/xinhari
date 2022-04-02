@@ -2,8 +2,8 @@
 package proxy
 
 import (
-	"xinhari.com/client"
-	"xinhari.com/router"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/router"
 )
 
 type Options struct {

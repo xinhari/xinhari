@@ -7,17 +7,17 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"xinhari.com/broker"
-	"xinhari.com/client/selector"
-	"xinhari.com/codec"
-	raw "xinhari.com/codec/bytes"
-	"xinhari.com/errors"
-	"xinhari.com/metadata"
-	"xinhari.com/registry"
-	"xinhari.com/transport"
-	"xinhari.com/util/buf"
-	"xinhari.com/util/net"
-	"xinhari.com/util/pool"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/codec"
+	raw "xinhari.com/xinhari/codec/bytes"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/metadata"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/transport"
+	"xinhari.com/xinhari/util/buf"
+	"xinhari.com/xinhari/util/net"
+	"xinhari.com/xinhari/util/pool"
 )
 
 type rpcClient struct {

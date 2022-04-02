@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"net/http"
 
-	"xinhari.com/api/resolver"
-	"xinhari.com/api/server/acme"
+	"xinhari.com/xinhari/api/resolver"
+	"xinhari.com/xinhari/api/server/acme"
 )
 
 type Option func(o *Options)

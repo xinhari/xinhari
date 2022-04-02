@@ -1,7 +1,7 @@
 package basic
 
 import (
-	"xinhari.com/auth/provider"
+	"xinhari.com/xinhari/auth/provider"
 )
 
 // NewProvider returns an initialised basic provider

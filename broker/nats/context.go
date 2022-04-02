@@ -3,7 +3,7 @@ package nats
 import (
 	"context"
 
-	"xinhari.com/broker"
+	"xinhari.com/xinhari/broker"
 )
 
 // setBrokerOption returns a function to setup a context with given value

@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"xinhari.com/network/resolver"
+	"xinhari.com/xinhari/network/resolver"
 )
 
 // Resolver is a HTTP network resolver

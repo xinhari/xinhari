@@ -3,7 +3,7 @@ package xml
 import (
 	"encoding/xml"
 
-	"xinhari.com/config/encoder"
+	"xinhari.com/xinhari/config/encoder"
 )
 
 type xmlEncoder struct{}

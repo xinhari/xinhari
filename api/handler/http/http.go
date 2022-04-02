@@ -8,9 +8,9 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"xinhari.com/api"
-	"xinhari.com/api/handler"
-	"xinhari.com/client/selector"
+	"xinhari.com/xinhari/api"
+	"xinhari.com/xinhari/api/handler"
+	"xinhari.com/xinhari/client/selector"
 )
 
 const (

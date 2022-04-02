@@ -4,7 +4,7 @@ package reader
 import (
 	"time"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 // Reader is an interface for merging changesets

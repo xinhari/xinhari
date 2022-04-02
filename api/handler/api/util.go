@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/oxtoacart/bpool"
-	api "xinhari.com/api/proto"
-	"xinhari.com/client/selector"
-	"xinhari.com/registry"
+	api "xinhari.com/xinhari/api/proto"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/registry"
 )
 
 var (

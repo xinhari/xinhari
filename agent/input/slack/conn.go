@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/nlopes/slack"
-	"xinhari.com/agent/input"
+	"xinhari.com/xinhari/agent/input"
 )
 
 // Satisfies the input.Conn interface

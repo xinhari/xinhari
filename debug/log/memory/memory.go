@@ -4,8 +4,8 @@ package memory
 import (
 	"fmt"
 
-	"xinhari.com/debug/log"
-	"xinhari.com/util/ring"
+	"xinhari.com/xinhari/debug/log"
+	"xinhari.com/xinhari/util/ring"
 )
 
 var (

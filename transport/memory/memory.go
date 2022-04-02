@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/transport"
-	maddr "xinhari.com/util/addr"
-	mnet "xinhari.com/util/net"
+	"xinhari.com/xinhari/transport"
+	maddr "xinhari.com/xinhari/util/addr"
+	mnet "xinhari.com/xinhari/util/net"
 )
 
 type memorySocket struct {

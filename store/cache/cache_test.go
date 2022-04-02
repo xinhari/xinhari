@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"xinhari.com/store"
-	"xinhari.com/store/memory"
+	"xinhari.com/xinhari/store"
+	"xinhari.com/xinhari/store/memory"
 )
 
 func TestCache(t *testing.T) {

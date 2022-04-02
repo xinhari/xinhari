@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/config"
-	"xinhari.com/config/source/file"
+	"xinhari.com/xinhari/config"
+	"xinhari.com/xinhari/config/source/file"
 )
 
 func TestConfig(t *testing.T) {

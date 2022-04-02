@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"xinhari.com/client/selector"
-	"xinhari.com/errors"
-	"xinhari.com/registry"
-	"xinhari.com/registry/memory"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/registry/memory"
 )
 
 func newTestRegistry() registry.Registry {

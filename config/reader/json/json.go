@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/imdario/mergo"
-	"xinhari.com/config/encoder"
-	"xinhari.com/config/encoder/json"
-	"xinhari.com/config/reader"
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/encoder"
+	"xinhari.com/xinhari/config/encoder/json"
+	"xinhari.com/xinhari/config/reader"
+	"xinhari.com/xinhari/config/source"
 )
 
 type jsonReader struct {

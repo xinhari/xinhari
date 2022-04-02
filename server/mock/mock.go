@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/google/uuid"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/server"
 )
 
 type MockServer struct {

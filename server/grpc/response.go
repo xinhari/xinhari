@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"xinhari.com/codec"
+	"xinhari.com/xinhari/codec"
 )
 
 type rpcResponse struct {

@@ -5,7 +5,7 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/codec"
+	"xinhari.com/xinhari/codec"
 )
 
 // Client is the interface used to make requests to services.

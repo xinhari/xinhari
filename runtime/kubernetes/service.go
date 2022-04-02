@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"xinhari.com/logger"
-	"xinhari.com/runtime"
-	"xinhari.com/util/kubernetes/api"
-	"xinhari.com/util/kubernetes/client"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/runtime"
+	"xinhari.com/xinhari/util/kubernetes/api"
+	"xinhari.com/xinhari/util/kubernetes/client"
 )
 
 type service struct {

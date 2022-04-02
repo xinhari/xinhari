@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 type addressKey struct{}

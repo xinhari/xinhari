@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"xinhari.com/registry/memory"
+	"xinhari.com/xinhari/registry/memory"
 )
 
 func TestRegistrySelector(t *testing.T) {

@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"xinhari.com/registry"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/server"
 )
 
 type MockSubscriber struct {

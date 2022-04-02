@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/micro/cli/v2"
-	micro "xinhari.com"
-	"xinhari.com/logger"
-	"xinhari.com/web"
+	micro "xinhari.com/xinhari"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/web"
 )
 
 func TestWeb(t *testing.T) {

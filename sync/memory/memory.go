@@ -5,7 +5,7 @@ import (
 	gosync "sync"
 	"time"
 
-	"xinhari.com/sync"
+	"xinhari.com/xinhari/sync"
 )
 
 type memorySync struct {

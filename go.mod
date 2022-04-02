@@ -1,4 +1,4 @@
-module xinhari.com
+module xinhari.com/xinhari
 
 go 1.13
 

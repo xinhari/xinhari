@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 func TestStrategies(t *testing.T) {

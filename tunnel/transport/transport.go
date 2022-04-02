@@ -4,8 +4,8 @@ package transport
 import (
 	"context"
 
-	"xinhari.com/transport"
-	"xinhari.com/tunnel"
+	"xinhari.com/xinhari/transport"
+	"xinhari.com/xinhari/tunnel"
 )
 
 type tunTransport struct {

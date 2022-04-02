@@ -2,8 +2,8 @@
 package proto
 
 import (
-	"xinhari.com/router"
-	pbRtr "xinhari.com/router/service/proto"
+	"xinhari.com/xinhari/router"
+	pbRtr "xinhari.com/xinhari/router/service/proto"
 )
 
 // RouteToProto encodes route into protobuf and returns it

@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/logger"
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/transport"
 )
 
 // session is our pseudo session for transport.Socket

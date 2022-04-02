@@ -6,8 +6,8 @@ import (
 	"net"
 	"strconv"
 
-	"xinhari.com/client/selector"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/registry"
 )
 
 type dnsSelector struct {

@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 // CallFunc represents the individual call func

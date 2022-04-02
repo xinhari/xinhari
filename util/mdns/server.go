@@ -11,7 +11,7 @@ import (
 	"github.com/miekg/dns"
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"
-	log "xinhari.com/logger"
+	log "xinhari.com/xinhari/logger"
 )
 
 var (

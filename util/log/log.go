@@ -1,5 +1,5 @@
 // Package log is a global internal logger
-// DEPRECATED: this is frozen package, use xinhari.com/logger
+// DEPRECATED: this is frozen package, use xinhari.com/xinhari/logger
 package log
 
 import (
@@ -7,8 +7,8 @@ import (
 	"os"
 	"sync/atomic"
 
-	dlog "xinhari.com/debug/log"
-	nlog "xinhari.com/logger"
+	dlog "xinhari.com/xinhari/debug/log"
+	nlog "xinhari.com/xinhari/logger"
 )
 
 // level is a log level

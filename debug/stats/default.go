@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/util/ring"
+	"xinhari.com/xinhari/util/ring"
 )
 
 type stats struct {

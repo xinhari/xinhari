@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/logger"
 )
 
 // Request is used to construct a http request for the k8s API.

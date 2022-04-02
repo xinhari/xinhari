@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	nats "github.com/nats-io/nats.go"
-	"xinhari.com/broker"
+	"xinhari.com/xinhari/broker"
 )
 
 var addrTestCases = []struct {

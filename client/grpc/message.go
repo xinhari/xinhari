@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"xinhari.com/client"
+	"xinhari.com/xinhari/client"
 )
 
 type grpcEvent struct {

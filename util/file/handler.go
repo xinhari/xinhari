@@ -7,10 +7,10 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"xinhari.com/errors"
-	"xinhari.com/logger"
-	"xinhari.com/server"
-	proto "xinhari.com/util/file/proto"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/server"
+	proto "xinhari.com/xinhari/util/file/proto"
 )
 
 // NewHandler is a handler that can be registered with a micro Server

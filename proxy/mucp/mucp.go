@@ -10,16 +10,16 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/client"
-	"xinhari.com/client/selector"
-	"xinhari.com/codec"
-	"xinhari.com/codec/bytes"
-	"xinhari.com/errors"
-	"xinhari.com/logger"
-	"xinhari.com/metadata"
-	"xinhari.com/proxy"
-	"xinhari.com/router"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/codec/bytes"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/metadata"
+	"xinhari.com/xinhari/proxy"
+	"xinhari.com/xinhari/router"
+	"xinhari.com/xinhari/server"
 )
 
 // Proxy will transparently proxy requests to an endpoint.

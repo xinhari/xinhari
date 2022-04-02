@@ -5,10 +5,10 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/broker"
-	pb "xinhari.com/broker/service/proto"
-	"xinhari.com/client"
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/broker"
+	pb "xinhari.com/xinhari/broker/service/proto"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/logger"
 )
 
 type serviceBroker struct {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/auth/provider"
-	"xinhari.com/client"
-	"xinhari.com/store"
+	"xinhari.com/xinhari/auth/provider"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/store"
 )
 
 func NewOptions(opts ...Option) Options {

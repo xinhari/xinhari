@@ -5,12 +5,12 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/client"
-	"xinhari.com/debug/log"
-	proto "xinhari.com/debug/service/proto"
-	"xinhari.com/debug/stats"
-	"xinhari.com/debug/trace"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/debug/log"
+	proto "xinhari.com/xinhari/debug/service/proto"
+	"xinhari.com/xinhari/debug/stats"
+	"xinhari.com/xinhari/debug/trace"
+	"xinhari.com/xinhari/server"
 )
 
 // NewHandler returns an instance of the Debug Handler

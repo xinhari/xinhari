@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	"xinhari.com/registry"
-	"xinhari.com/registry/memory"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/registry/memory"
 )
 
 func TestRoundTripper(t *testing.T) {

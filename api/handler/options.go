@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"xinhari.com/api/router"
-	"xinhari.com/client"
-	"xinhari.com/client/grpc"
+	"xinhari.com/xinhari/api/router"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/client/grpc"
 )
 
 var (

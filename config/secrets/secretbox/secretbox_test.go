@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"xinhari.com/config/secrets"
+	"xinhari.com/xinhari/config/secrets"
 )
 
 func TestSecretBox(t *testing.T) {

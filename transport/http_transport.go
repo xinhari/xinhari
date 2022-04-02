@@ -15,10 +15,10 @@ import (
 
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
-	maddr "xinhari.com/util/addr"
-	"xinhari.com/util/buf"
-	mnet "xinhari.com/util/net"
-	mls "xinhari.com/util/tls"
+	maddr "xinhari.com/xinhari/util/addr"
+	"xinhari.com/xinhari/util/buf"
+	mnet "xinhari.com/xinhari/util/net"
+	mls "xinhari.com/xinhari/util/tls"
 )
 
 type httpTransport struct {

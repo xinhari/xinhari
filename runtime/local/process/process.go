@@ -4,7 +4,7 @@ package process
 import (
 	"io"
 
-	"xinhari.com/runtime/local/build"
+	"xinhari.com/xinhari/runtime/local/build"
 )
 
 // Process manages a running process

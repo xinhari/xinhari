@@ -3,9 +3,9 @@ package source
 import (
 	"context"
 
-	"xinhari.com/client"
-	"xinhari.com/config/encoder"
-	"xinhari.com/config/encoder/json"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/config/encoder"
+	"xinhari.com/xinhari/config/encoder/json"
 )
 
 type Options struct {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/broker"
-	"xinhari.com/client/selector"
-	"xinhari.com/codec"
-	"xinhari.com/registry"
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/transport"
 )
 
 type Options struct {

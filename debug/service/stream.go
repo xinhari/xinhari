@@ -1,7 +1,7 @@
 package service
 
 import (
-	"xinhari.com/debug/log"
+	"xinhari.com/xinhari/debug/log"
 )
 
 type logStream struct {

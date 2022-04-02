@@ -9,7 +9,7 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/micro/cli/v2"
-	"xinhari.com/agent/input"
+	"xinhari.com/xinhari/agent/input"
 )
 
 func init() {

@@ -12,8 +12,8 @@ import (
 
 	"github.com/lib/pq"
 	"github.com/pkg/errors"
-	"xinhari.com/logger"
-	"xinhari.com/store"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/store"
 )
 
 // DefaultDatabase is the namespace that the sql store

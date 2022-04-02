@@ -3,7 +3,7 @@ package flag
 import (
 	"context"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 type includeUnsetKey struct{}

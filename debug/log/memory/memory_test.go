@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"xinhari.com/debug/log"
+	"xinhari.com/xinhari/debug/log"
 )
 
 func TestLogger(t *testing.T) {

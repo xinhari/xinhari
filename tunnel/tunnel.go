@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 const (

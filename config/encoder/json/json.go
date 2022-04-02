@@ -3,7 +3,7 @@ package json
 import (
 	"encoding/json"
 
-	"xinhari.com/config/encoder"
+	"xinhari.com/xinhari/config/encoder"
 )
 
 type jsonEncoder struct{}

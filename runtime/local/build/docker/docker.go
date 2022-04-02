@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 
 	docker "github.com/fsouza/go-dockerclient"
-	"xinhari.com/logger"
-	"xinhari.com/runtime/local/build"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/runtime/local/build"
 )
 
 type Builder struct {

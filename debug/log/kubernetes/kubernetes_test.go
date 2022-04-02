@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"xinhari.com/debug/log"
+	"xinhari.com/xinhari/debug/log"
 )
 
 func TestKubernetes(t *testing.T) {

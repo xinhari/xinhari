@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"xinhari.com/logger"
-	"xinhari.com/util/kubernetes/api"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/util/kubernetes/api"
 )
 
 var (

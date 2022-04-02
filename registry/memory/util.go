@@ -3,7 +3,7 @@ package memory
 import (
 	"time"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 func serviceToRecord(s *registry.Service, ttl time.Duration) *record {

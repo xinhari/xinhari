@@ -2,7 +2,7 @@
 package http
 
 import (
-	"xinhari.com/broker"
+	"xinhari.com/xinhari/broker"
 )
 
 // NewBroker returns a new http broker

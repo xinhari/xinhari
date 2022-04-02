@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"xinhari.com/debug/trace"
-	"xinhari.com/util/ring"
+	"xinhari.com/xinhari/debug/trace"
+	"xinhari.com/xinhari/util/ring"
 )
 
 type Tracer struct {

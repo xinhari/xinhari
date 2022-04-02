@@ -2,7 +2,7 @@
 package registry
 
 import (
-	"xinhari.com/network/resolver"
+	"xinhari.com/xinhari/network/resolver"
 )
 
 // Resolver returns a static list of nodes. In the event the node list

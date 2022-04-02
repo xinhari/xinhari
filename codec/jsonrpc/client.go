@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"xinhari.com/codec"
+	"xinhari.com/xinhari/codec"
 )
 
 type clientCodec struct {

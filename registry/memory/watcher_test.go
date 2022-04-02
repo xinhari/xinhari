@@ -3,7 +3,7 @@ package memory
 import (
 	"testing"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 func TestWatcher(t *testing.T) {

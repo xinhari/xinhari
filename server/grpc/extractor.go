@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 func extractValue(v reflect.Type, d int) *registry.Value {

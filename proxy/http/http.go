@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"path"
 
-	"xinhari.com/errors"
-	"xinhari.com/proxy"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/proxy"
+	"xinhari.com/xinhari/server"
 )
 
 // Proxy will proxy rpc requests as http POST requests. It is a server.Proxy

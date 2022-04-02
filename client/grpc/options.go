@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
-	"xinhari.com/client"
+	"xinhari.com/xinhari/client"
 )
 
 var (

@@ -2,8 +2,8 @@ package router
 
 import (
 	"github.com/google/uuid"
-	"xinhari.com/client"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/registry"
 )
 
 // Options are router options

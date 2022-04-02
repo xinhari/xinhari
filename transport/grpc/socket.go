@@ -2,8 +2,8 @@ package grpc
 
 import (
 	"google.golang.org/grpc"
-	"xinhari.com/transport"
-	pb "xinhari.com/transport/grpc/proto"
+	"xinhari.com/xinhari/transport"
+	pb "xinhari.com/xinhari/transport/grpc/proto"
 )
 
 type grpcTransportClient struct {

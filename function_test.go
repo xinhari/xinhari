@@ -5,9 +5,9 @@ import (
 	"sync"
 	"testing"
 
-	proto "xinhari.com/debug/service/proto"
-	"xinhari.com/registry/memory"
-	"xinhari.com/util/test"
+	proto "xinhari.com/xinhari/debug/service/proto"
+	"xinhari.com/xinhari/registry/memory"
+	"xinhari.com/xinhari/util/test"
 )
 
 func TestFunction(t *testing.T) {

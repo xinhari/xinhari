@@ -5,7 +5,7 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/metadata"
+	"xinhari.com/xinhari/metadata"
 )
 
 // Tracer is an interface for distributed tracing

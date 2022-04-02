@@ -4,7 +4,7 @@ package host
 import (
 	"net/http"
 
-	"xinhari.com/api/resolver"
+	"xinhari.com/xinhari/api/resolver"
 )
 
 type Resolver struct {

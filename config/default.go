@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/config/loader"
-	"xinhari.com/config/loader/memory"
-	"xinhari.com/config/reader"
-	"xinhari.com/config/reader/json"
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/loader"
+	"xinhari.com/xinhari/config/loader/memory"
+	"xinhari.com/xinhari/config/reader"
+	"xinhari.com/xinhari/config/reader/json"
+	"xinhari.com/xinhari/config/source"
 )
 
 type config struct {

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/logger"
 )
 
 var (

@@ -4,10 +4,10 @@ package config
 import (
 	"context"
 
-	"xinhari.com/config/loader"
-	"xinhari.com/config/reader"
-	"xinhari.com/config/source"
-	"xinhari.com/config/source/file"
+	"xinhari.com/xinhari/config/loader"
+	"xinhari.com/xinhari/config/reader"
+	"xinhari.com/xinhari/config/source"
+	"xinhari.com/xinhari/config/source/file"
 )
 
 // Config is an interface abstraction for dynamic configuration

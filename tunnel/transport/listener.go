@@ -1,8 +1,8 @@
 package transport
 
 import (
-	"xinhari.com/transport"
-	"xinhari.com/tunnel"
+	"xinhari.com/xinhari/transport"
+	"xinhari.com/xinhari/tunnel"
 )
 
 type tunListener struct {

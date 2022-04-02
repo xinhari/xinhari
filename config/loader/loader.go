@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"xinhari.com/config/reader"
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/reader"
+	"xinhari.com/xinhari/config/source"
 )
 
 // Loader manages loading sources

@@ -3,8 +3,8 @@ package service
 import (
 	"time"
 
-	"xinhari.com/config/source"
-	proto "xinhari.com/config/source/service/proto"
+	"xinhari.com/xinhari/config/source"
+	proto "xinhari.com/xinhari/config/source/service/proto"
 )
 
 func toChangeSet(c *proto.ChangeSet) *source.ChangeSet {

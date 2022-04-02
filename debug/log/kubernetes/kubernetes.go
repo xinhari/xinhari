@@ -1,4 +1,4 @@
-// Package kubernetes is a logger implementing (xinhari.com/debug/log).Log
+// Package kubernetes is a logger implementing (xinhari.com/xinhari/debug/log).Log
 package kubernetes
 
 import (
@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	"xinhari.com/debug/log"
-	"xinhari.com/util/kubernetes/client"
+	"xinhari.com/xinhari/debug/log"
+	"xinhari.com/xinhari/util/kubernetes/client"
 )
 
 type klog struct {

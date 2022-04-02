@@ -2,7 +2,7 @@
 package registry
 
 import (
-	"xinhari.com/client/selector"
+	"xinhari.com/xinhari/client/selector"
 )
 
 // NewSelector returns a new registry selector

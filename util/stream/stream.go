@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"xinhari.com/client"
-	"xinhari.com/codec"
-	"xinhari.com/metadata"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/metadata"
+	"xinhari.com/xinhari/server"
 )
 
 type Stream interface {

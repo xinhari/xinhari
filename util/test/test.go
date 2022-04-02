@@ -1,7 +1,7 @@
 package test
 
 import (
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 var (

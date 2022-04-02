@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/kr/pretty"
-	"xinhari.com/store"
+	"xinhari.com/xinhari/store"
 )
 
 func TestMemoryReInit(t *testing.T) {

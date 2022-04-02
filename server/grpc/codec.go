@@ -11,8 +11,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
 	"google.golang.org/grpc/metadata"
-	"xinhari.com/codec"
-	"xinhari.com/codec/bytes"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/codec/bytes"
 )
 
 type jsonCodec struct{}

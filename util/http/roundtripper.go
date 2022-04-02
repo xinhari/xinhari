@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"xinhari.com/client/selector"
+	"xinhari.com/xinhari/client/selector"
 )
 
 type roundTripper struct {

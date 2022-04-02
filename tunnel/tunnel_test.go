@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 func testBrokenTunAccept(t *testing.T, tun Tunnel, wait chan bool, wg *sync.WaitGroup) {

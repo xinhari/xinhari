@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/util/backoff"
+	"xinhari.com/xinhari/util/backoff"
 )
 
 type BackoffFunc func(ctx context.Context, req Request, attempts int) (time.Duration, error)

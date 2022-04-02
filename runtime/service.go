@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/logger"
-	"xinhari.com/runtime/local/build"
-	"xinhari.com/runtime/local/process"
-	proc "xinhari.com/runtime/local/process/os"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/runtime/local/build"
+	"xinhari.com/xinhari/runtime/local/process"
+	proc "xinhari.com/xinhari/runtime/local/process/os"
 )
 
 type service struct {

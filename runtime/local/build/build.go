@@ -2,7 +2,7 @@
 package build
 
 import (
-	"xinhari.com/runtime/local/source"
+	"xinhari.com/xinhari/runtime/local/source"
 )
 
 // Builder builds binaries

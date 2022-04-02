@@ -17,8 +17,8 @@ import (
 	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
 	hash "github.com/mitchellh/hashstructure"
 	"go.uber.org/zap"
-	"xinhari.com/logger"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/registry"
 )
 
 var (

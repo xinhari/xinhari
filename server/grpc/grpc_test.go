@@ -7,17 +7,17 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
-	micro "xinhari.com"
-	bmemory "xinhari.com/broker/memory"
-	"xinhari.com/client"
-	gcli "xinhari.com/client/grpc"
-	"xinhari.com/errors"
-	rmemory "xinhari.com/registry/memory"
-	"xinhari.com/server"
-	gsrv "xinhari.com/server/grpc"
-	tgrpc "xinhari.com/transport/grpc"
+	micro "xinhari.com/xinhari"
+	bmemory "xinhari.com/xinhari/broker/memory"
+	"xinhari.com/xinhari/client"
+	gcli "xinhari.com/xinhari/client/grpc"
+	"xinhari.com/xinhari/errors"
+	rmemory "xinhari.com/xinhari/registry/memory"
+	"xinhari.com/xinhari/server"
+	gsrv "xinhari.com/xinhari/server/grpc"
+	tgrpc "xinhari.com/xinhari/transport/grpc"
 
-	pb "xinhari.com/server/grpc/proto"
+	pb "xinhari.com/xinhari/server/grpc/proto"
 )
 
 // server is used to implement helloworld.GreeterServer.

@@ -7,80 +7,80 @@ import (
 	"strings"
 	"time"
 
-	"xinhari.com/auth"
-	"xinhari.com/auth/provider"
-	"xinhari.com/broker"
-	"xinhari.com/client"
-	"xinhari.com/client/grpc"
-	"xinhari.com/client/selector"
-	"xinhari.com/config"
-	configSrc "xinhari.com/config/source"
-	configSrv "xinhari.com/config/source/service"
-	"xinhari.com/debug/profile"
-	"xinhari.com/debug/profile/http"
-	"xinhari.com/debug/profile/pprof"
-	"xinhari.com/debug/trace"
-	"xinhari.com/logger"
-	"xinhari.com/registry"
-	registrySrv "xinhari.com/registry/service"
-	"xinhari.com/runtime"
-	"xinhari.com/server"
-	"xinhari.com/store"
-	"xinhari.com/transport"
-	authutil "xinhari.com/util/auth"
-	"xinhari.com/util/wrapper"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/auth/provider"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/client/grpc"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/config"
+	configSrc "xinhari.com/xinhari/config/source"
+	configSrv "xinhari.com/xinhari/config/source/service"
+	"xinhari.com/xinhari/debug/profile"
+	"xinhari.com/xinhari/debug/profile/http"
+	"xinhari.com/xinhari/debug/profile/pprof"
+	"xinhari.com/xinhari/debug/trace"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/registry"
+	registrySrv "xinhari.com/xinhari/registry/service"
+	"xinhari.com/xinhari/runtime"
+	"xinhari.com/xinhari/server"
+	"xinhari.com/xinhari/store"
+	"xinhari.com/xinhari/transport"
+	authutil "xinhari.com/xinhari/util/auth"
+	"xinhari.com/xinhari/util/wrapper"
 
 	// clients
-	cgrpc "xinhari.com/client/grpc"
-	cmucp "xinhari.com/client/mucp"
+	cgrpc "xinhari.com/xinhari/client/grpc"
+	cmucp "xinhari.com/xinhari/client/mucp"
 
 	// servers
 	"github.com/micro/cli/v2"
 
-	sgrpc "xinhari.com/server/grpc"
-	smucp "xinhari.com/server/mucp"
+	sgrpc "xinhari.com/xinhari/server/grpc"
+	smucp "xinhari.com/xinhari/server/mucp"
 
 	// brokers
-	brokerHttp "xinhari.com/broker/http"
-	"xinhari.com/broker/memory"
-	"xinhari.com/broker/nats"
-	brokerSrv "xinhari.com/broker/service"
+	brokerHttp "xinhari.com/xinhari/broker/http"
+	"xinhari.com/xinhari/broker/memory"
+	"xinhari.com/xinhari/broker/nats"
+	brokerSrv "xinhari.com/xinhari/broker/service"
 
 	// registries
-	"xinhari.com/registry/etcd"
-	"xinhari.com/registry/mdns"
-	rmem "xinhari.com/registry/memory"
-	regSrv "xinhari.com/registry/service"
+	"xinhari.com/xinhari/registry/etcd"
+	"xinhari.com/xinhari/registry/mdns"
+	rmem "xinhari.com/xinhari/registry/memory"
+	regSrv "xinhari.com/xinhari/registry/service"
 
 	// runtimes
-	kRuntime "xinhari.com/runtime/kubernetes"
-	lRuntime "xinhari.com/runtime/local"
-	srvRuntime "xinhari.com/runtime/service"
+	kRuntime "xinhari.com/xinhari/runtime/kubernetes"
+	lRuntime "xinhari.com/xinhari/runtime/local"
+	srvRuntime "xinhari.com/xinhari/runtime/service"
 
 	// selectors
-	"xinhari.com/client/selector/dns"
-	"xinhari.com/client/selector/router"
-	"xinhari.com/client/selector/static"
+	"xinhari.com/xinhari/client/selector/dns"
+	"xinhari.com/xinhari/client/selector/router"
+	"xinhari.com/xinhari/client/selector/static"
 
 	// transports
-	thttp "xinhari.com/transport/http"
-	tmem "xinhari.com/transport/memory"
+	thttp "xinhari.com/xinhari/transport/http"
+	tmem "xinhari.com/xinhari/transport/memory"
 
 	// stores
-	memStore "xinhari.com/store/memory"
-	svcStore "xinhari.com/store/service"
+	memStore "xinhari.com/xinhari/store/memory"
+	svcStore "xinhari.com/xinhari/store/service"
 
 	// tracers
-	// jTracer "xinhari.com/debug/trace/jaeger"
-	memTracer "xinhari.com/debug/trace/memory"
+	// jTracer "xinhari.com/xinhari/debug/trace/jaeger"
+	memTracer "xinhari.com/xinhari/debug/trace/memory"
 
 	// auth
-	jwtAuth "xinhari.com/auth/jwt"
-	svcAuth "xinhari.com/auth/service"
+	jwtAuth "xinhari.com/xinhari/auth/jwt"
+	svcAuth "xinhari.com/xinhari/auth/service"
 
 	// auth providers
-	"xinhari.com/auth/provider/basic"
-	"xinhari.com/auth/provider/oauth"
+	"xinhari.com/xinhari/auth/provider/basic"
+	"xinhari.com/xinhari/auth/provider/oauth"
 )
 
 type Cmd interface {

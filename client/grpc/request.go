@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"xinhari.com/client"
-	"xinhari.com/codec"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/codec"
 )
 
 type grpcRequest struct {

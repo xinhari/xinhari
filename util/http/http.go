@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strings"
 
-	"xinhari.com/client/selector"
-	"xinhari.com/metadata"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/metadata"
+	"xinhari.com/xinhari/registry"
 )
 
 // Write sets the status and body on a http ResponseWriter

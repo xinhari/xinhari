@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	"xinhari.com/api"
-	"xinhari.com/api/router"
-	"xinhari.com/api/router/util"
-	"xinhari.com/logger"
-	"xinhari.com/metadata"
-	"xinhari.com/registry"
-	"xinhari.com/registry/cache"
+	"xinhari.com/xinhari/api"
+	"xinhari.com/xinhari/api/router"
+	"xinhari.com/xinhari/api/router/util"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/metadata"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/registry/cache"
 )
 
 // endpoint struct, that holds compiled pcre

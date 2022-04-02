@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"xinhari.com/logger"
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/transport"
 )
 
 type link struct {

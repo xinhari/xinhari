@@ -1,11 +1,11 @@
 package grpc
 
 import (
-	"xinhari.com/client"
-	gclient "xinhari.com/client/grpc"
-	"xinhari.com/server"
-	gserver "xinhari.com/server/grpc"
-	"xinhari.com/service"
+	"xinhari.com/xinhari/client"
+	gclient "xinhari.com/xinhari/client/grpc"
+	"xinhari.com/xinhari/server"
+	gserver "xinhari.com/xinhari/server/grpc"
+	"xinhari.com/xinhari/service"
 )
 
 type grpcService struct {

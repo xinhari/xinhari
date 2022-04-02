@@ -1,4 +1,4 @@
-# Xinhari [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/xinhari.com?tab=doc) [![Travis CI](https://api.travis-ci.org/micro/go-micro.svg?branch=master)](https://travis-ci.org/micro/go-micro) [![Go Report Card](https://goreportcard.com/badge/ebelanja/go-micro)](https://goreportcard.com/report/xinhari.com) 
+# Xinhari [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/xinhari.com/xinhari?tab=doc) [![Travis CI](https://api.travis-ci.org/micro/go-micro.svg?branch=master)](https://travis-ci.org/micro/go-micro) [![Go Report Card](https://goreportcard.com/badge/ebelanja/go-micro)](https://goreportcard.com/report/xinhari.com/xinhari) 
 
 Xinhari Framework is a continuation development of Go Micro V2 Framework by https://github.com/asim
 # All changes aim to improve and optimize Go Micro V2
@@ -52,7 +52,7 @@ are pluggable and allows Go Micro to be runtime agnostic. You can plugin any und
 To make use of Go Micro
 
 ```golang
-import "xinhari.com"
+import "xinhari.com/xinhari"
 
 // create a new service
 service := micro.NewService(

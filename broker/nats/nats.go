@@ -8,10 +8,10 @@ import (
 	"sync"
 
 	nats "github.com/nats-io/nats.go"
-	"xinhari.com/broker"
-	"xinhari.com/codec/json"
-	"xinhari.com/logger"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/codec/json"
+	"xinhari.com/xinhari/logger"
+	"xinhari.com/xinhari/registry"
 )
 
 type natsBroker struct {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"crypto/tls"
 
-	"xinhari.com/codec"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/registry"
 )
 
 type Options struct {

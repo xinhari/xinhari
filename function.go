@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/server"
+	"xinhari.com/xinhari/server"
 )
 
 type function struct {

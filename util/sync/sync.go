@@ -8,7 +8,7 @@ import (
 
 	"github.com/ef-ds/deque"
 	"github.com/pkg/errors"
-	"xinhari.com/store"
+	"xinhari.com/xinhari/store"
 )
 
 // Sync implements a sync in for stores

@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"xinhari.com/codec"
-	"xinhari.com/codec/bytes"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/codec/bytes"
 )
 
 type rpcRequest struct {

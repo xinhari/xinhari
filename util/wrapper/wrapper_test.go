@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"xinhari.com/auth"
-	"xinhari.com/client"
-	"xinhari.com/errors"
-	"xinhari.com/metadata"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/metadata"
+	"xinhari.com/xinhari/server"
 )
 
 func TestWrapper(t *testing.T) {

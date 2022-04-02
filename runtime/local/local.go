@@ -2,7 +2,7 @@
 package local
 
 import (
-	"xinhari.com/runtime"
+	"xinhari.com/xinhari/runtime"
 )
 
 // NewRuntime returns a new local runtime

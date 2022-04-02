@@ -7,11 +7,11 @@ import (
 	"sort"
 	"sync"
 
-	"xinhari.com/client"
-	"xinhari.com/client/selector"
-	"xinhari.com/registry"
-	"xinhari.com/router"
-	pb "xinhari.com/router/service/proto"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/client/selector"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/router"
+	pb "xinhari.com/xinhari/router/service/proto"
 )
 
 type routerSelector struct {

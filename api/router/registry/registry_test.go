@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"xinhari.com/registry"
+	"xinhari.com/xinhari/registry"
 )
 
 func TestStoreRegex(t *testing.T) {

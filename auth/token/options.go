@@ -3,7 +3,7 @@ package token
 import (
 	"time"
 
-	"xinhari.com/store"
+	"xinhari.com/xinhari/store"
 )
 
 type Options struct {

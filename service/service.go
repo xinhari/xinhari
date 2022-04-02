@@ -2,8 +2,8 @@
 package service
 
 import (
-	"xinhari.com/client"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/server"
 )
 
 // Service is an interface for a micro service

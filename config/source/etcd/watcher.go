@@ -7,7 +7,7 @@ import (
 	"time"
 
 	cetcd "github.com/coreos/etcd/clientv3"
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 type watcher struct {

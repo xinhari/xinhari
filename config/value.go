@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"xinhari.com/config/reader"
+	"xinhari.com/xinhari/config/reader"
 )
 
 type value struct{}

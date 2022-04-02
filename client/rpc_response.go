@@ -1,8 +1,8 @@
 package client
 
 import (
-	"xinhari.com/codec"
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/transport"
 )
 
 type rpcResponse struct {

@@ -12,11 +12,11 @@ import (
 	"github.com/gobwas/httphead"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
-	"xinhari.com/api"
-	"xinhari.com/client"
-	"xinhari.com/client/selector"
-	raw "xinhari.com/codec/bytes"
-	"xinhari.com/logger"
+	"xinhari.com/xinhari/api"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/client/selector"
+	raw "xinhari.com/xinhari/codec/bytes"
+	"xinhari.com/xinhari/logger"
 )
 
 // serveWebsocket will stream rpc back over websockets assuming json

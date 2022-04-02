@@ -7,12 +7,12 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
-	"xinhari.com/auth"
-	"xinhari.com/broker"
-	"xinhari.com/codec"
-	"xinhari.com/registry"
-	"xinhari.com/server"
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/broker"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/server"
+	"xinhari.com/xinhari/transport"
 )
 
 type codecsKey struct{}

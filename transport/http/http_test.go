@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"xinhari.com/transport"
+	"xinhari.com/xinhari/transport"
 )
 
 func call(b *testing.B, c int) {

@@ -3,9 +3,9 @@ package server
 import (
 	"bytes"
 
-	"xinhari.com/codec"
-	"xinhari.com/transport"
-	"xinhari.com/util/buf"
+	"xinhari.com/xinhari/codec"
+	"xinhari.com/xinhari/transport"
+	"xinhari.com/xinhari/util/buf"
 )
 
 type rpcRequest struct {

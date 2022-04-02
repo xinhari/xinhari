@@ -3,7 +3,7 @@ package file
 import (
 	"testing"
 
-	"xinhari.com/config/source"
+	"xinhari.com/xinhari/config/source"
 )
 
 func TestFormat(t *testing.T) {

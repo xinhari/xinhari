@@ -3,8 +3,8 @@ package grpc
 import (
 	"reflect"
 
-	"xinhari.com/registry"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/registry"
+	"xinhari.com/xinhari/server"
 )
 
 type rpcHandler struct {

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"xinhari.com/auth"
+	"xinhari.com/xinhari/auth"
 )
 
 // Verify an account has access to a resource using the rules provided. If the account does not have

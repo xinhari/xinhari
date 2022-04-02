@@ -5,13 +5,13 @@ import (
 	"reflect"
 	"strings"
 
-	"xinhari.com/auth"
-	"xinhari.com/client"
-	"xinhari.com/debug/stats"
-	"xinhari.com/debug/trace"
-	"xinhari.com/errors"
-	"xinhari.com/metadata"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/auth"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/debug/stats"
+	"xinhari.com/xinhari/debug/trace"
+	"xinhari.com/xinhari/errors"
+	"xinhari.com/xinhari/metadata"
+	"xinhari.com/xinhari/server"
 )
 
 type fromServiceWrapper struct {

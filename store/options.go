@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"xinhari.com/client"
+	"xinhari.com/xinhari/client"
 )
 
 // Options contains configuration for the Store

@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"xinhari.com/client"
-	"xinhari.com/debug/service/handler"
-	"xinhari.com/proxy"
-	"xinhari.com/server"
+	"xinhari.com/xinhari/client"
+	"xinhari.com/xinhari/debug/service/handler"
+	"xinhari.com/xinhari/proxy"
+	"xinhari.com/xinhari/server"
 )
 
 // Server is a proxy muxer that incudes the use of the DefaultHandler

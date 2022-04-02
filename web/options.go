@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/micro/cli/v2"
-	micro "xinhari.com"
-	"xinhari.com/registry"
+	micro "xinhari.com/xinhari"
+	"xinhari.com/xinhari/registry"
 )
 
 //Options for web
