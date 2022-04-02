@@ -1,3 +1,3 @@
-package micro
+package xinhari
 
 //go:generate ./.github/generate.sh

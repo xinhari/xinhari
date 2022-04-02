@@ -1,5 +1,5 @@
-// Package micro is a pluggable framework for microservices
-package micro
+// package xinhari is a pluggable framework for microservices
+package xinhari
 
 import (
 	"context"

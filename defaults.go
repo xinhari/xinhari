@@ -1,4 +1,4 @@
-package micro
+package xinhari
 
 import (
 	"xinhari.com/xinhari/client"
