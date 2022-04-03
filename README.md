@@ -1,17 +1,17 @@
-# Xinhari [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/xinhari.com/xinhari?tab=doc) [![Travis CI](https://api.travis-ci.org/micro/go-micro.svg?branch=master)](https://travis-ci.org/micro/go-micro) [![Go Report Card](https://goreportcard.com/badge/ebelanja/go-micro)](https://goreportcard.com/report/xinhari.com/xinhari) 
+# Xinhari [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/xinhari.com/xinhari?tab=doc) [![Travis CI](https://api.travis-ci.org/xinhari/xinhari.svg?branch=main)](https://travis-ci.org/xinhari/xinhari) [![Go Report Card](https://goreportcard.com/badge/xinhari.com/xinhari)](https://goreportcard.com/report/xinhari.com/xinhari) 
 
 Xinhari Framework is a continuation development of Go Micro V2 Framework by https://github.com/asim
 # All changes aim to improve and optimize Go Micro V2
 
 ## Overview
 
-Go Micro provides the core requirements for distributed systems development including RPC and Event driven communication. 
-The **Micro** philosophy is sane defaults with a pluggable architecture. We provide defaults to get you started quickly 
+Xinhari provides the core requirements for distributed systems development including RPC and Event driven communication. 
+The **Xinhari** philosophy is sane defaults with a pluggable architecture. We provide defaults to get you started quickly 
 but everything can be easily swapped out. 
 
 ## Features
 
-Go Micro abstracts away the details of distributed systems. Here are the main features.
+Xinhari abstracts away the details of distributed systems. Here are the main features.
 
 - **Authentication** - Auth is built in as a first class citizen. Authentication and authorization enable secure 
 zero trust networking by providing every service an identity and certificates. This additionally includes rule 
