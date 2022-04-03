@@ -1,8 +1,5 @@
 # Xinhari [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/xinhari.com/xinhari?tab=doc) [![Travis CI](https://api.travis-ci.org/xinhari/xinhari.svg?branch=main)](https://travis-ci.org/xinhari/xinhari) [![Go Report Card](https://goreportcard.com/badge/xinhari.com/xinhari)](https://goreportcard.com/report/xinhari.com/xinhari) 
 
-Xinhari Framework is a continuation development of Go Micro V2 Framework by https://github.com/asim
-# All changes aim to improve and optimize Go Micro V2
-
 ## Overview
 
 Xinhari provides the core requirements for distributed systems development including RPC and Event driven communication. 
@@ -38,13 +35,13 @@ and server handle this by default. This includes protobuf and json by default.
 - **gRPC Transport** - gRPC based request/response with support for bidirectional streaming. We provide an abstraction for synchronous communication. A request made to a service will be automatically resolved, load balanced, dialled and streamed.
 
 - **Async Messaging** - PubSub is built in as a first class citizen for asynchronous communication and event driven architectures. 
-Event notifications are a core pattern in micro service development. The default messaging system is a HTTP event message broker.
+Event notifications are a core pattern in xinhari service development. The default messaging system is a HTTP event message broker.
 
 - **Synchronization** - Distributed systems are often built in an eventually consistent manner. Support for distributed locking and 
 leadership are built in as a Sync interface. When using an eventually consistent database or scheduling use the Sync interface.
 
-- **Pluggable Interfaces** - Go Micro makes use of Go interfaces for each distributed system abstraction. Because of this these interfaces 
-are pluggable and allows Go Micro to be runtime agnostic. You can plugin any underlying technology. Find plugins in 
+- **Pluggable Interfaces** - Xinhari makes use of Go interfaces for each distributed system abstraction. Because of this these interfaces 
+are pluggable and allows Xinhari to be runtime agnostic. You can plugin any underlying technology. Find plugins in 
 [github.com/micro/go-plugins](https://github.com/micro/go-plugins).
 
 ## Getting Started
@@ -66,9 +63,9 @@ service.Init()
 service.Run()
 ```
 
--
 See the [docs](https://xinhari.com) for detailed information on the architecture, installation and use of xinhari.
  
+Inspired by Go Micro V2
 
 ## License
 
