@@ -1,4 +1,4 @@
-// Package web provides web based micro services
+// Package web provides web based xinhari services
 package web
 
 import (
