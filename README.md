@@ -53,7 +53,7 @@ import "xinhari.com/xinhari"
 
 // create a new service
 service := xinhari.NewService(
-    xinhari.Name("com.exnamespace.service.helloworld"),
+    xinhari.Name("com.exnamespace.srv.helloworld"),
 )
 
 // initialise flags
@@ -65,8 +65,7 @@ service.Run()
 
 See the [docs](https://xinhari.com) for detailed information on the architecture, installation and use of xinhari.
  
-Inspired by Go Micro V2
-
+Advanced development of Go Micro 2
 ## License
 
 Xinhari is Apache 2.0 licensed.
