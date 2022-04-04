@@ -70,4 +70,3 @@ Inspired by Go Micro V2
 ## License
 
 Xinhari is Apache 2.0 licensed.
-
