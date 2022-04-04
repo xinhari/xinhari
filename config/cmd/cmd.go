@@ -107,7 +107,7 @@ var (
 		&cli.StringFlag{
 			Name:    "client",
 			EnvVars: []string{"MICRO_CLIENT"},
-			Usage:   "Client for go-micro; rpc",
+			Usage:   "Client for xinhari; rpc",
 		},
 		&cli.StringFlag{
 			Name:    "client_request_timeout",
@@ -145,7 +145,7 @@ var (
 		&cli.StringFlag{
 			Name:    "server",
 			EnvVars: []string{"MICRO_SERVER"},
-			Usage:   "Server for go-micro; rpc",
+			Usage:   "Server for xinhari; rpc",
 		},
 		&cli.StringFlag{
 			Name:    "server_name",
