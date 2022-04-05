@@ -1,4 +1,4 @@
-// Package debug provides micro debug packages
+// Package debug provides xinhari debug packages
 package debug
 
 var (

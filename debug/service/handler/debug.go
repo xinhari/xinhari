@@ -1,4 +1,4 @@
-// Package handler implements service debug handler embedded in go-micro services
+// Package handler implements service debug handler embedded in xinhari services
 package handler
 
 import (

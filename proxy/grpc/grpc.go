@@ -1,4 +1,4 @@
-// Package grpc transparently forwards the grpc protocol using a go-micro client.
+// Package grpc transparently forwards the grpc protocol using a xinhari client.
 package grpc
 
 import (

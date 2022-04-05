@@ -54,7 +54,7 @@ type Node interface {
 	Status() Status
 }
 
-// Network is micro network
+// Network is xinhari network
 type Network interface {
 	// Node is network node
 	Node
@@ -68,9 +68,9 @@ type Network interface {
 	Connect() error
 	// Close stops the tunnel and resolving
 	Close() error
-	// Client is micro client
+	// Client is xinhari client
 	Client() client.Client
-	// Server is micro server
+	// Server is xinhari server
 	Server() server.Server
 }
 

@@ -15,7 +15,7 @@ type Resolver struct {
 	Address string
 }
 
-// Resolve assumes ID is a domain name e.g micro.mu
+// Resolve assumes ID is a domain name e.g xinhari.com
 func (r *Resolver) Resolve(name string) ([]*resolver.Record, error) {
 	host, port, err := net.SplitHostPort(name)
 	if err != nil {

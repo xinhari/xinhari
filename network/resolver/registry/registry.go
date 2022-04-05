@@ -1,4 +1,4 @@
-// Package registry resolves names using the go-micro registry
+// Package registry resolves names using the xinhari registry
 package registry
 
 import (
@@ -12,7 +12,7 @@ type Resolver struct {
 	Registry registry.Registry
 }
 
-// Resolve assumes ID is a domain name e.g micro.mu
+// Resolve assumes ID is a domain name e.g xinhari.com
 func (r *Resolver) Resolve(name string) ([]*resolver.Record, error) {
 	reg := r.Registry
 	if reg == nil {

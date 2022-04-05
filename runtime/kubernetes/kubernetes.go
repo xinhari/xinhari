@@ -1,4 +1,4 @@
-// Package kubernetes implements kubernetes micro runtime
+// Package kubernetes implements kubernetes xinhari runtime
 package kubernetes
 
 import (
@@ -63,7 +63,7 @@ func (k *kubernetes) createNamespace(namespace string) error {
 	return err
 }
 
-// getService queries kubernetes for micro service
+// getService queries kubernetes for xinhari service
 // NOTE: this function is not thread-safe
 func (k *kubernetes) getService(labels map[string]string, opts ...client.GetOption) ([]*service, error) {
 	// get the service status
@@ -612,7 +612,7 @@ func (k *kubernetes) String() string {
 func NewRuntime(opts ...runtime.Option) runtime.Runtime {
 	// get default options
 	options := runtime.Options{
-		// Create labels with type "micro": "service"
+		// Create labels with type "xinhari": "service"
 		Type: "service",
 	}
 

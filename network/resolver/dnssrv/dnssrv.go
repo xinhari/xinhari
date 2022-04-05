@@ -11,7 +11,7 @@ import (
 // Resolver is a DNS network resolve
 type Resolver struct{}
 
-// Resolve assumes ID is a domain name e.g micro.mu
+// Resolve assumes ID is a domain name e.g xinhari.com
 func (r *Resolver) Resolve(name string) ([]*resolver.Record, error) {
 	_, addrs, err := net.LookupSRV("network", "udp", name)
 	if err != nil {

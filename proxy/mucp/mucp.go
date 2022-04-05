@@ -1,4 +1,4 @@
-// Package mucp transparently forwards the incoming request using a go-micro client.
+// Package mucp transparently forwards the incoming request using a xinhari client.
 package mucp
 
 import (
