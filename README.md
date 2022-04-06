@@ -18,9 +18,9 @@ based access control.
 level config from any source such as env vars, file, etcd. You can merge the sources and even define fallbacks.
 
 - **Data Storage** - A simple data store interface to read, write and delete records. It includes support for memory, file and 
-CockroachDB by default. State and persistence becomes a core requirement beyond prototyping and Micro looks to build that into the framework.
+CockroachDB by default. State and persistence becomes a core requirement beyond prototyping and Xinhari looks to build that into the framework.
 
-- **Service Discovery** - Automatic service registration and name resolution. Service discovery is at the core of micro service 
+- **Service Discovery** - Automatic service registration and name resolution. Service discovery is at the core of xinhari service 
 development. When service A needs to speak to service B it needs the location of that service. The default discovery mechanism is 
 multicast DNS (mdns), a zeroconf system.
 
@@ -42,7 +42,7 @@ leadership are built in as a Sync interface. When using an eventually consistent
 
 - **Pluggable Interfaces** - Xinhari makes use of Go interfaces for each distributed system abstraction. Because of this these interfaces 
 are pluggable and allows Xinhari to be runtime agnostic. You can plugin any underlying technology. Find plugins in 
-[github.com/micro/go-plugins](https://github.com/micro/go-plugins).
+[github.com/xinhari/plugins](https://github.com/xinhari/plugins).
 
 ## Getting Started
 
