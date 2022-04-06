@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: For reporting bugs in go-micro
+about: For reporting bugs in xinhari
 title: "[BUG]"
 labels: ''
 assignees: ''

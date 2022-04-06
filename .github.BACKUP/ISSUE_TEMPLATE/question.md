@@ -1,6 +1,6 @@
 ---
 name: Question
-about: Ask a question about go-micro
+about: Ask a question about xinhari
 title: ''
 labels: ''
 assignees: ''
@@ -9,6 +9,6 @@ assignees: ''
 
 Before asking, please check if your question has already been answered: 
 
-1. Check the documentation - https://micro.mu/docs/
-2. Check the examples and plugins - https://github.com/micro/examples & https://github.com/micro/go-plugins
+1. Check the documentation - https://xinhari.com
+2. Check the examples and plugins - https://github.com/xinhari/examples & https://github.com/xinhari/plugins
 3. Search existing issues
