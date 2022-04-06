@@ -5,6 +5,7 @@ import (
 	"context"
 	"crypto/tls"
 	"encoding/gob"
+	"io"
 	"time"
 
 	quic "github.com/lucas-clemente/quic-go"
@@ -13,7 +14,7 @@ import (
 )
 
 type quicSocket struct {
-	s   quic.Session
+	s   quic.Connection
 	st  quic.Stream
 	enc *gob.Encoder
 	dec *gob.Decoder
@@ -51,7 +52,7 @@ func (q *quicSocket) Send(m *transport.Message) error {
 }
 
 func (q *quicSocket) Close() error {
-	return q.s.Close()
+	return q.s.CloseWithError(0, io.EOF.Error())
 }
 
 func (q *quicSocket) Local() string {
@@ -118,8 +119,8 @@ func (q *quicTransport) Dial(addr string, opts ...transport.DialOption) (transpo
 		}
 	}
 	s, err := quic.DialAddr(addr, config, &quic.Config{
-		IdleTimeout: time.Minute * 2,
-		KeepAlive:   true,
+		MaxIdleTimeout: time.Minute * 2,
+		KeepAlive:      true,
 	})
 	if err != nil {
 		return nil, err
