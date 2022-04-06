@@ -1,4 +1,4 @@
-name: Build all github.com/micro/examples
+name: Build all github.com/xinhari/examples
 on:
   push: 
     branches:
@@ -20,12 +20,12 @@ jobs:
     - name: Check out this code
       uses: actions/checkout@v2
       with:
-        path: 'go-micro'
+        path: 'xinhari'
 
     - name: Check out code examples
       uses: actions/checkout@v2
       with:
-        repository: 'micro/examples'
+        repository: 'xinhari/examples'
         path: 'examples'
 
     - name: Build all
