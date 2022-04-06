@@ -1,4 +1,4 @@
-name: Build and test micro
+name: Build and test xinhari
 on:
   push: 
     branches:
@@ -7,7 +7,7 @@ on:
 jobs:
 
   build:
-    name: Build and test micro
+    name: Build and test xinhari
     runs-on: ubuntu-latest
     steps:
 
@@ -20,15 +20,15 @@ jobs:
     - name: Check out this code
       uses: actions/checkout@v2
       with:
-        path: 'go-micro'
+        path: 'xinhari'
 
-    - name: Check out micro
+    - name: Check out hari
       uses: actions/checkout@v2
       with:
-        repository: 'micro/micro'
-        path: 'micro'
+        repository: 'xinhari/hari'
+        path: 'hari'
 
     - name: Build all
-      run: $GITHUB_WORKSPACE/go-micro/.github/workflows/scripts/build-micro.sh $GITHUB_SHA
-      working-directory: micro
+      run: $GITHUB_WORKSPACE/xinhari/.github/workflows/scripts/build-xinhari.sh $GITHUB_SHA
+      working-directory: xinhari
     
