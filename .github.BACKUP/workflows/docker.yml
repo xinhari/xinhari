@@ -3,10 +3,10 @@ name: Docker
 on:
   push:
     branches:
-    - master
+    - main
     tags:
-    - v2.*
-    - v3.*
+    - v0.*
+    - v1.*
 jobs:
   build:
      runs-on: ubuntu-latest
@@ -16,7 +16,7 @@ jobs:
        - uses: elgohr/Publish-Docker-Github-Action@2.12
          name: Build and Push Docker Image
          with:
-           name: micro/go-micro
+           name: xinhari/xinhari
            username: ${{ secrets.DOCKER_USERNAME }}
            password: ${{ secrets.DOCKER_PASSWORD }}
            tag_names: true
