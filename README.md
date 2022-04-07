@@ -70,7 +70,6 @@ See the [docs](https://xinhari.com/docs) for detailed information on the archite
 ## Contributing
 
 Thank you for considering contributing to the Xinhari framework! The contribution guide can be found in the [Xinhari documentation](https://xinhari.com/docs/contributions).
-
  
 Advanced development of Go Micro 2
 ## License
