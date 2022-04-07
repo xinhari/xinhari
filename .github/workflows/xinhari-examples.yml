@@ -29,6 +29,6 @@ jobs:
         path: 'examples'
 
     - name: Build all
-      run: $GITHUB_WORKSPACE/go-micro/.github/workflows/scripts/build-all-examples.sh $GITHUB_SHA
+      run: $GITHUB_WORKSPACE/xinhari/.github/workflows/scripts/build-all-examples.sh $GITHUB_SHA
       working-directory: examples
     
