@@ -133,3 +133,9 @@ require (
 	honnef.co/go/tools v0.0.1-2019.2.3 // indirect
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
+
+retract (
+	v1.0.0-beta
+	v1.0.0-alpha.2
+	v1.0.0-alpha.1
+)
